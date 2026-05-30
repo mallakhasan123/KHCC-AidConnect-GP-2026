@@ -1,0 +1,251 @@
+Donor ID,Full Name,Gender,Donor Type,Governorate,Preferred Fund Type,Donation Amount JD,Donation Frequency,Est Annual Total JD,Donation Channel,Preferred Cancer Type,Preferred Cancer Stage,Prefers Families w Kids,Prefers Low Income Cases,Zakat Donations Only,Years Donating,Donor Capacity Score,Anonymous Donation,Recurring Donation
+D001,Hikma Pharmaceuticals,Unknown,Corporate,Jerash,Zakat Fund,10000,Semi-Annual,20000,Coin Box,Brain Tumor,Stage II,Yes,Yes,Yes,7,0.667,Yes,Yes
+D002,Sara Rawashdeh,Female,Individual,Mafraq,Goodwill Fund,200,Quarterly,800,eFAWATEERcom,Thyroid Cancer,Stage III,No,Yes,No,11,0.027,No,Yes
+D003,Samir Smadi,Male,Individual,Mafraq,Goodwill Fund,100,Quarterly,400,Credit Card (Arab Bank),Lymphoma,Stage I,Yes,Yes,No,9,0.013,No,Yes
+D004,Fadi Al-Momani,Male,Individual,Irbid,Named/Recognition Program,200,Monthly,2400,Bank Transfer,Lymphoma,Stage I,No,Yes,No,6,0.08,Yes,Yes
+D005,Zain Jordan,Unknown,Corporate,Madaba,Goodwill Fund,10000,Annual,10000,Bank Transfer,Brain Tumor,Any,No,Yes,No,4,0.333,No,No
+D006,Save the Children Jordan,Unknown,NGO,Aqaba,Goodwill Fund,3000,Semi-Annual,6000,Coupon (10/20/50 JD),Bone Cancer,Any,No preference,Yes,No,9,0.2,No,No
+D007,Fatima Bani-Hani,Female,Individual,Ma'an,Named/Recognition Program,200,Quarterly,800,Bank Transfer,Lymphoma,Any,No,Yes,No,14,0.027,No,Yes
+D008,Anonymous Donor,Male,Anonymous,Ma'an,Zakat Fund,10,Annual,10,Coin Box,Colorectal Cancer,Any,Yes,No,Yes,8,0.0,Yes,Yes
+D009,Jawad Bani-Hani,Male,Individual,Jerash,Goodwill Fund,200,One-Time,200,STS PayOne,Thyroid Cancer,Any,No preference,Yes,No,12,0.007,No,Yes
+D010,Rola Suleiman,Female,Individual,Madaba,General Donation,100,Monthly,1200,Credit Card (Arab Bank),Colorectal Cancer,Any,Yes,Yes,No,12,0.04,Yes,Yes
+D011,Mabanee Jordan,Unknown,Corporate,Aqaba,Zakat Fund,5000,Quarterly,20000,Coupon (10/20/50 JD),Prostate Cancer,Any,No preference,No,No,9,0.667,No,Yes
+D012,Rola Ababneh,Female,Individual,Jerash,Goodwill Fund,200,Quarterly,800,Bank Transfer,Any,Stage IV,No preference,Yes,No,6,0.027,No,Yes
+D013,Mabanee Jordan,Unknown,Corporate,Ajloun,Goodwill Fund,5000,Quarterly,20000,Bank Transfer,Lung Cancer,Stage I,No,Yes,No,2,0.667,No,Yes
+D014,Samir Zreiqat,Male,Individual,Balqa,Goodwill Fund,20,Monthly,240,Credit Card (Arab Bank),Colorectal Cancer,Stage II,No preference,No,No,10,0.008,No,Yes
+D015,Eyad Nabulsi,Male,Individual,Zarqa,Goodwill Fund,1000,Annual,1000,Wire Transfer,Ovarian Cancer,Stage II,No preference,Yes,No,6,0.033,Yes,No
+D016,UNRWA Jordan,Unknown,NGO,Karak,Goodwill Fund,500,Annual,500,In-Kind,Any,Any,No preference,Yes,No,2,0.017,No,No
+D017,Bassam Suleiman,Male,Individual,Irbid,Medical Equipment Program,200,Annual,200,eFAWATEERcom,Bladder Cancer,Stage III,No preference,No,No,7,0.007,No,Yes
+D018,Hope Organization Jordan,Unknown,NGO,Tafilah,Zakat Fund,500,Quarterly,2000,Coin Box,Colorectal Cancer,Any,No,Yes,Yes,11,0.067,Yes,Yes
+D019,Al-Amal NGO,Unknown,NGO,Karak,Goodwill Fund,1000,Semi-Annual,2000,eFAWATEERcom,Cervical Cancer,Any,No,Yes,No,7,0.067,No,Yes
+D020,Anonymous Donor,Male,Anonymous,Tafilah,Goodwill Fund,1000,Monthly,12000,STS PayOne,Breast Cancer,Any,No preference,Yes,No,15,0.4,Yes,Yes
+D021,Mabanee Jordan,Unknown,Corporate,Karak,Gaza Fund,1000,Annual,1000,Coin Box,Any,Any,No preference,Yes,No,4,0.033,No,No
+D022,Ola Al-Tarawneh,Female,Individual,Aqaba,Goodwill Fund,50,Quarterly,200,Coin Box,Cervical Cancer,Stage III,Yes,No,No,11,0.007,No,Yes
+D023,Ghada Zreiqat,Female,Individual,Madaba,Zakat Fund,500,Quarterly,2000,In-Kind,Cervical Cancer,Any,No preference,No,Yes,11,0.067,Yes,Yes
+D024,Ahmad Batayneh,Male,Individual,Karak,Goodwill Fund,100,Monthly,1200,Bank Transfer,Prostate Cancer,Stage I,No,No,No,10,0.04,No,Yes
+D025,Sara Smadi,Female,Individual,Irbid,Zakat Fund,100,Annual,100,Coin Box,Breast Cancer,Stage I,No,No,No,3,0.003,Yes,Yes
+D026,Hani Jaradat,Male,Individual,Aqaba,Medical Equipment Program,50,Quarterly,200,Coupon (10/20/50 JD),Prostate Cancer,Stage II,Yes,No,No,7,0.007,Yes,Yes
+D027,Ahmad Ababneh,Male,Individual,Karak,Named/Recognition Program,500,Monthly,6000,Coupon (10/20/50 JD),Ovarian Cancer,Stage III,No preference,Yes,No,8,0.2,No,Yes
+D028,Anonymous Donor,Male,Anonymous,Balqa,Named/Recognition Program,20,Annual,20,Bank Transfer,Brain Tumor,Any,No preference,Yes,No,14,0.001,Yes,No
+D029,Fadi Hamdan,Male,Individual,Jerash,Goodwill Fund,50,Quarterly,200,Bank Transfer,Lymphoma,Any,No,No,No,12,0.007,No,Yes
+D030,Arab Potash Co.,Unknown,Corporate,Amman,Zakat Fund,25000,Quarterly,100000,Bank Transfer,Any,Any,No preference,No,No,8,1.0,No,Yes
+D031,Nour Odeh,Female,Individual,Amman,Zakat Fund,1000,Quarterly,4000,STS PayOne,Lymphoma,Stage III,No,Yes,Yes,9,0.133,No,Yes
+D032,Rola Nabulsi,Female,Individual,Amman,Goodwill Fund,1000,Quarterly,4000,Coin Box,Brain Tumor,Any,No preference,Yes,No,6,0.133,No,Yes
+D033,Nisreen Suleiman,Female,Individual,Mafraq,General Donation,1000,Annual,1000,Bank Transfer,Bladder Cancer,Any,Yes,Yes,No,15,0.033,Yes,Yes
+D034,Nadia Mustafa,Female,Individual,Karak,General Donation,200,Quarterly,800,Coin Box,Leukemia,Any,No preference,Yes,No,8,0.027,No,Yes
+D035,Bassam Batayneh,Male,Individual,Ma'an,General Donation,500,Quarterly,2000,Credit Card (Arab Bank),Lymphoma,Any,Yes,No,No,15,0.067,No,Yes
+D036,Samir Obeidat,Male,Individual,Irbid,Named/Recognition Program,500,One-Time,500,Coupon (10/20/50 JD),Leukemia,Stage I,No preference,No,No,5,0.017,No,Yes
+D037,Nasser Jaradat,Male,Individual,Karak,Goodwill Fund,200,Monthly,2400,Bank Transfer,Prostate Cancer,Stage I,No preference,Yes,No,3,0.08,Yes,Yes
+D038,Aramex Jordan,Unknown,Corporate,Irbid,General Donation,5000,Annual,5000,Bank Transfer,Breast Cancer,Stage I,Yes,Yes,No,7,0.167,No,Yes
+D039,Save the Children Jordan,Unknown,NGO,Irbid,Gaza Fund,5000,Quarterly,20000,Coin Box,Lung Cancer,Stage I,Yes,Yes,No,7,0.667,No,Yes
+D040,Jordan Islamic Bank,Unknown,Corporate,Ajloun,Named/Recognition Program,2000,Quarterly,8000,Coin Box,Lymphoma,Stage II,No preference,Yes,No,9,0.267,No,Yes
+D041,Jawad Al-Dmour,Male,Individual,Tafilah,Zakat Fund,200,Annual,200,Coin Box,Thyroid Cancer,Any,No,Yes,Yes,5,0.007,No,No
+D042,Hiba Zreiqat,Female,Individual,Aqaba,Medical Equipment Program,20,Annual,20,Coin Box,Prostate Cancer,Any,No preference,No,No,9,0.001,No,No
+D043,Lara Bani-Hani,Female,Individual,Jerash,Medical Equipment Program,200,Monthly,2400,Coin Box,Breast Cancer,Stage III,No preference,Yes,No,12,0.08,No,Yes
+D044,Nour Al-Khalidi,Female,Individual,Tafilah,Named/Recognition Program,200,One-Time,200,Coin Box,Any,Stage II,Yes,Yes,No,15,0.007,No,Yes
+D045,Samir Nabulsi,Male,Individual,Amman,Zakat Fund,50,Annual,50,Coin Box,Thyroid Cancer,Any,Yes,Yes,No,13,0.002,No,Yes
+D046,Rola Al-Hassan,Female,Individual,Karak,General Donation,50,Annual,50,Coin Box,Leukemia,Any,No preference,Yes,No,4,0.002,No,Yes
+D047,Ziad Suleiman,Male,Individual,Madaba,Goodwill Fund,500,Annual,500,In-Kind,Lung Cancer,Stage IV,Yes,Yes,No,7,0.017,No,Yes
+D048,JETT Transport,Unknown,Corporate,Ma'an,Named/Recognition Program,5000,Quarterly,20000,Bank Transfer,Leukemia,Stage II,Yes,Yes,No,13,0.667,No,Yes
+D049,Ghada Nsour,Female,Individual,Tafilah,Goodwill Fund,100,Monthly,1200,In-Kind,Lung Cancer,Stage I,Yes,No,No,4,0.04,No,Yes
+D050,Yousef Nabulsi,Male,Individual,Karak,Gaza Fund,5000,Quarterly,20000,Coin Box,Lung Cancer,Stage II,No preference,Yes,No,15,0.667,No,Yes
+D051,Hikma Pharmaceuticals,Unknown,Corporate,Tafilah,Named/Recognition Program,5000,Annual,5000,In-Kind,Breast Cancer,Any,Yes,Yes,No,2,0.167,No,No
+D052,Arab Bank,Unknown,Corporate,Aqaba,General Donation,10000,Semi-Annual,20000,Coupon (10/20/50 JD),Lung Cancer,Stage II,No preference,Yes,No,1,0.667,No,No
+D053,Fadi Shatnawi,Male,Individual,Tafilah,Medical Equipment Program,500,Monthly,6000,Coupon (10/20/50 JD),Colorectal Cancer,Stage II,Yes,Yes,No,4,0.2,No,Yes
+D054,Mercy Corps Jordan,Unknown,NGO,Jerash,General Donation,3000,Semi-Annual,6000,Bank Transfer,Leukemia,Stage IV,No,Yes,No,13,0.2,Yes,Yes
+D055,Jordan River Foundation,Unknown,NGO,Karak,Named/Recognition Program,1000,Quarterly,4000,Bank Transfer,Bladder Cancer,Stage I,No,Yes,No,3,0.133,No,Yes
+D056,Al-Amal NGO,Unknown,NGO,Ajloun,Medical Equipment Program,3000,Quarterly,12000,Coin Box,Any,Any,No,No,No,14,0.4,No,Yes
+D057,Al-Masyaf Co.,Unknown,Corporate,Ajloun,Goodwill Fund,10000,Semi-Annual,20000,Coin Box,Bone Cancer,Any,No,Yes,No,2,0.667,No,Yes
+D058,Save the Children Jordan,Unknown,NGO,Jerash,Medical Equipment Program,3000,Quarterly,12000,Bank Transfer,Lung Cancer,Stage II,No preference,Yes,No,13,0.4,No,Yes
+D059,Bilal Mustafa,Male,Individual,Irbid,Goodwill Fund,10,Quarterly,40,In-Kind,Any,Any,Yes,No,No,14,0.001,No,Yes
+D060,Rami Al-Dmour,Male,Individual,Ma'an,Named/Recognition Program,10,Annual,10,Credit Card (Arab Bank),Any,Any,No,Yes,No,9,0.0,No,No
+D061,Al-Masyaf Co.,Unknown,Corporate,Irbid,Goodwill Fund,1000,Quarterly,4000,Coin Box,Any,Stage II,No preference,Yes,No,5,0.133,No,Yes
+D062,Anonymous Donor,Female,Anonymous,Karak,Goodwill Fund,10,Annual,10,Coupon (10/20/50 JD),Leukemia,Any,No,No,No,1,0.0,Yes,Yes
+D063,Hassan Al-Zoubi,Male,Individual,Irbid,Named/Recognition Program,1000,Annual,1000,Credit Card (Arab Bank),Leukemia,Stage I,No,Yes,No,12,0.033,No,No
+D064,Arab Bank,Unknown,Corporate,Aqaba,Zakat Fund,5000,Quarterly,20000,Credit Card (Arab Bank),Brain Tumor,Stage II,Yes,Yes,Yes,10,0.667,No,Yes
+D065,Greater Amman Municipality,Unknown,Government,Irbid,Named/Recognition Program,10000,Annual,10000,eFAWATEERcom,Cervical Cancer,Stage I,Yes,Yes,No,8,0.333,No,No
+D066,Fadi Ababneh,Male,Individual,Karak,Medical Equipment Program,100,Quarterly,400,Credit Card (Arab Bank),Any,Stage II,Yes,Yes,No,9,0.013,Yes,Yes
+D067,Noha Jaradat,Female,Individual,Balqa,Medical Equipment Program,5000,Quarterly,20000,Coupon (10/20/50 JD),Ovarian Cancer,Stage II,No,No,No,13,0.667,No,Yes
+D068,Housing Bank,Unknown,Corporate,Irbid,Named/Recognition Program,1000,Quarterly,4000,Coin Box,Lymphoma,Stage II,No,Yes,No,9,0.133,No,Yes
+D069,Tkiyet Um Ali,Unknown,NGO,Mafraq,Gaza Fund,500,Annual,500,Credit Card (Arab Bank),Bladder Cancer,Stage III,No,Yes,No,11,0.017,No,Yes
+D070,Bassam Suleiman,Male,Individual,Amman,Named/Recognition Program,200,Quarterly,800,Coupon (10/20/50 JD),Thyroid Cancer,Stage I,Yes,No,No,15,0.027,No,Yes
+D071,Dina Nabulsi,Female,Individual,Madaba,Gaza Fund,200,Annual,200,Coin Box,Ovarian Cancer,Stage IV,Yes,Yes,No,15,0.007,No,Yes
+D072,Jordan Islamic Bank,Unknown,Corporate,Madaba,Goodwill Fund,2000,Annual,2000,Bank Transfer,Prostate Cancer,Stage I,No,No,No,7,0.067,Yes,No
+D073,Samir Fraihat,Male,Individual,Irbid,Goodwill Fund,100,One-Time,100,In-Kind,Any,Stage IV,No preference,Yes,No,3,0.003,No,Yes
+D074,Jordan Telecom,Unknown,Corporate,Aqaba,General Donation,5000,Annual,5000,Bank Transfer,Thyroid Cancer,Stage I,No,No,No,10,0.167,Yes,Yes
+D075,Rola Hamdan,Female,Individual,Ajloun,Zakat Fund,20,Annual,20,Coin Box,Ovarian Cancer,Any,No preference,Yes,Yes,9,0.001,No,Yes
+D076,Anonymous Donor,Female,Anonymous,Aqaba,Zakat Fund,200,One-Time,200,Bank Transfer,Prostate Cancer,Stage II,No,Yes,Yes,9,0.007,Yes,Yes
+D077,Hani Al-Rousan,Male,Individual,Mafraq,Medical Equipment Program,1000,Quarterly,4000,Bank Transfer,Leukemia,Stage IV,No preference,No,No,6,0.133,Yes,Yes
+D078,Alaa Bani-Hani,Female,Individual,Amman,Named/Recognition Program,200,Quarterly,800,eFAWATEERcom,Breast Cancer,Stage II,No preference,Yes,No,10,0.027,No,Yes
+D079,Al-Masyaf Co.,Unknown,Corporate,Aqaba,Medical Equipment Program,2000,Annual,2000,Bank Transfer,Any,Stage III,No,Yes,No,10,0.067,No,No
+D080,Ministry of Social Development,Unknown,Government,Aqaba,Goodwill Fund,5000,Annual,5000,Coin Box,Any,Stage I,Yes,Yes,No,13,0.167,No,No
+D081,Ahmad Al-Khalidi,Male,Individual,Irbid,Medical Equipment Program,500,Annual,500,eFAWATEERcom,Leukemia,Stage I,No preference,Yes,No,12,0.017,No,Yes
+D082,Jordan Islamic Bank,Unknown,Corporate,Madaba,Goodwill Fund,2000,Annual,2000,Bank Transfer,Leukemia,Stage II,No,No,No,13,0.067,No,No
+D083,Nuqul Group,Unknown,Corporate,Jerash,Goodwill Fund,5000,Semi-Annual,10000,Bank Transfer,Cervical Cancer,Stage I,No preference,Yes,No,9,0.333,No,Yes
+D084,Aqaba Development Corp,Unknown,Government,Ajloun,Medical Equipment Program,10000,Annual,10000,Coupon (10/20/50 JD),Breast Cancer,Stage III,No,No,No,10,0.333,Yes,No
+D085,Caritas Jordan,Unknown,NGO,Aqaba,Named/Recognition Program,3000,Quarterly,12000,Coupon (10/20/50 JD),Prostate Cancer,Any,No preference,Yes,No,11,0.4,No,Yes
+D086,UNRWA Jordan,Unknown,NGO,Ajloun,Goodwill Fund,500,Semi-Annual,1000,Coupon (10/20/50 JD),Prostate Cancer,Any,Yes,Yes,No,10,0.033,No,Yes
+D087,Anonymous Donor,Male,Anonymous,Karak,Medical Equipment Program,200,Monthly,2400,In-Kind,Any,Stage II,No preference,No,No,13,0.08,Yes,Yes
+D088,Anonymous Donor,Male,Anonymous,Aqaba,Goodwill Fund,50,Annual,50,Bank Transfer,Leukemia,Stage IV,No,No,No,15,0.002,Yes,No
+D089,Tamer Zreiqat,Male,Individual,Ajloun,Zakat Fund,5000,Quarterly,20000,eFAWATEERcom,Any,Any,Yes,No,Yes,11,0.667,Yes,Yes
+D090,Heba Jaradat,Female,Individual,Ma'an,Goodwill Fund,100,Quarterly,400,Bank Transfer,Any,Stage III,No,Yes,No,15,0.013,Yes,Yes
+D091,Ziad Mustafa,Male,Individual,Ajloun,Goodwill Fund,200,One-Time,200,Coin Box,Lymphoma,Stage IV,No,Yes,No,7,0.007,Yes,Yes
+D092,Zain Jordan,Unknown,Corporate,Ajloun,Gaza Fund,10000,Semi-Annual,20000,Bank Transfer,Lymphoma,Stage IV,No,No,No,5,0.667,Yes,Yes
+D093,Arab Potash Co.,Unknown,Corporate,Zarqa,Zakat Fund,10000,Semi-Annual,20000,Bank Transfer,Leukemia,Stage III,No preference,Yes,No,1,0.667,Yes,Yes
+D094,Reem Suleiman,Female,Individual,Aqaba,Zakat Fund,10,Annual,10,eFAWATEERcom,Any,Any,No preference,No,No,7,0.0,No,No
+D095,Lara Zreiqat,Female,Individual,Madaba,Goodwill Fund,500,Monthly,6000,Bank Transfer,Ovarian Cancer,Stage III,No,No,No,14,0.2,No,Yes
+D096,Housing Bank,Unknown,Corporate,Zarqa,Goodwill Fund,1000,Quarterly,4000,Bank Transfer,Cervical Cancer,Stage II,Yes,No,No,11,0.133,No,Yes
+D097,Fadi Odeh,Male,Individual,Jerash,Medical Equipment Program,500,Monthly,6000,eFAWATEERcom,Any,Stage II,No preference,Yes,No,2,0.2,No,Yes
+D098,Fatima Odeh,Female,Individual,Ma'an,Medical Equipment Program,20,Annual,20,eFAWATEERcom,Brain Tumor,Stage II,No,Yes,No,2,0.001,No,Yes
+D099,Tkiyet Um Ali,Unknown,NGO,Aqaba,Zakat Fund,500,Annual,500,Wire Transfer,Any,Any,No preference,No,Yes,3,0.017,No,No
+D100,Samir Al-Khalidi,Male,Individual,Aqaba,Named/Recognition Program,1000,Quarterly,4000,eFAWATEERcom,Brain Tumor,Stage III,Yes,Yes,No,11,0.133,No,Yes
+D101,Noha Bani-Hani,Female,Individual,Karak,Named/Recognition Program,200,Annual,200,Coin Box,Any,Stage IV,No,Yes,No,7,0.007,No,Yes
+D102,Eyad Ababneh,Male,Individual,Tafilah,Medical Equipment Program,100,Annual,100,Bank Transfer,Any,Any,Yes,No,No,14,0.003,Yes,No
+D103,Ziad Suleiman,Male,Individual,Madaba,Zakat Fund,100,Quarterly,400,eFAWATEERcom,Brain Tumor,Any,No preference,Yes,Yes,3,0.013,No,Yes
+D104,Mercy Corps Jordan,Unknown,NGO,Tafilah,Goodwill Fund,5000,Quarterly,20000,Coin Box,Bladder Cancer,Stage I,No preference,No,No,15,0.667,No,Yes
+D105,Ahmad Rawashdeh,Male,Individual,Zarqa,Goodwill Fund,100,Monthly,1200,In-Kind,Any,Stage II,Yes,Yes,No,3,0.04,No,Yes
+D106,Anonymous Donor,Female,Anonymous,Irbid,Zakat Fund,20,Annual,20,Credit Card (Arab Bank),Bone Cancer,Any,Yes,Yes,Yes,1,0.001,Yes,No
+D107,Rana Nsour,Female,Individual,Irbid,Named/Recognition Program,50,Quarterly,200,Bank Transfer,Brain Tumor,Stage IV,Yes,No,No,9,0.007,No,Yes
+D108,Heba Al-Rousan,Female,Individual,Jerash,General Donation,50,Annual,50,eFAWATEERcom,Breast Cancer,Stage I,No preference,Yes,No,15,0.002,No,Yes
+D109,Ziad Fraihat,Male,Individual,Aqaba,Named/Recognition Program,10,Quarterly,40,Coin Box,Brain Tumor,Stage IV,No,Yes,No,4,0.001,No,Yes
+D110,Zain Jordan,Unknown,Corporate,Aqaba,Named/Recognition Program,25000,Annual,25000,Coupon (10/20/50 JD),Breast Cancer,Stage IV,Yes,Yes,No,11,0.833,No,Yes
+D111,Jordan Islamic Bank,Unknown,Corporate,Karak,Named/Recognition Program,1000,Semi-Annual,2000,Coin Box,Any,Stage III,Yes,Yes,No,11,0.067,Yes,Yes
+D112,Ministry of Social Development,Unknown,Government,Ajloun,General Donation,5000,Annual,5000,Bank Transfer,Leukemia,Any,No preference,No,No,10,0.167,No,Yes
+D113,Aramex Jordan,Unknown,Corporate,Aqaba,Gaza Fund,5000,Quarterly,20000,Coupon (10/20/50 JD),Any,Stage I,No,No,No,1,0.667,No,Yes
+D114,Hani Nabulsi,Male,Individual,Balqa,Goodwill Fund,50,Quarterly,200,Credit Card (Arab Bank),Brain Tumor,Stage III,No preference,Yes,No,13,0.007,No,Yes
+D115,Nadia Mustafa,Female,Individual,Ajloun,Goodwill Fund,10,Quarterly,40,Coin Box,Lymphoma,Any,No preference,No,No,11,0.001,No,Yes
+D116,Ghada Al-Tarawneh,Female,Individual,Jerash,Goodwill Fund,100,Monthly,1200,Wire Transfer,Any,Any,Yes,No,No,3,0.04,Yes,Yes
+D117,Bilal Suleiman,Male,Individual,Amman,Zakat Fund,5000,Quarterly,20000,Bank Transfer,Colorectal Cancer,Stage I,No preference,Yes,No,2,0.667,No,Yes
+D118,Royal Court,Unknown,Government,Tafilah,Medical Equipment Program,10000,Annual,10000,Coupon (10/20/50 JD),Thyroid Cancer,Stage I,No preference,No,No,12,0.333,Yes,No
+D119,Fadi Bani-Hani,Male,Individual,Mafraq,Goodwill Fund,100,Quarterly,400,In-Kind,Any,Any,Yes,No,No,15,0.013,No,Yes
+D120,Al-Masyaf Co.,Unknown,Corporate,Irbid,Gaza Fund,10000,Quarterly,40000,Wire Transfer,Brain Tumor,Any,Yes,Yes,No,6,1.0,No,Yes
+D121,Mariam Al-Tarawneh,Female,Individual,Tafilah,Named/Recognition Program,200,One-Time,200,Bank Transfer,Leukemia,Stage IV,No preference,Yes,No,2,0.007,No,No
+D122,Anonymous Donor,Male,Anonymous,Jerash,Gaza Fund,20,One-Time,20,Coin Box,Lymphoma,Stage II,No,Yes,No,15,0.001,Yes,No
+D123,Anonymous Donor,Male,Anonymous,Karak,Named/Recognition Program,1000,Quarterly,4000,Bank Transfer,Lymphoma,Any,No preference,No,No,2,0.133,Yes,Yes
+D124,Hiba Rawashdeh,Female,Individual,Jerash,Zakat Fund,50,Annual,50,Bank Transfer,Lymphoma,Stage III,No,Yes,No,9,0.002,Yes,Yes
+D125,Anonymous Donor,Female,Anonymous,Balqa,Zakat Fund,200,Quarterly,800,Bank Transfer,Thyroid Cancer,Stage I,No preference,Yes,Yes,6,0.027,Yes,Yes
+D126,Nour Shatnawi,Female,Individual,Jerash,General Donation,10,Annual,10,Coin Box,Bone Cancer,Stage III,No,Yes,No,13,0.0,Yes,No
+D127,Walid Al-Tarawneh,Male,Individual,Mafraq,Zakat Fund,500,One-Time,500,Bank Transfer,Bone Cancer,Stage III,Yes,Yes,Yes,15,0.017,No,No
+D128,Ola Smadi,Female,Individual,Balqa,Goodwill Fund,100,Annual,100,Bank Transfer,Ovarian Cancer,Stage IV,No,Yes,No,9,0.003,Yes,Yes
+D129,Walid Al-Momani,Male,Individual,Mafraq,Gaza Fund,500,Quarterly,2000,Credit Card (Arab Bank),Cervical Cancer,Stage I,No,No,No,11,0.067,No,Yes
+D130,Layla Al-Khalidi,Female,Individual,Karak,Named/Recognition Program,200,Annual,200,In-Kind,Thyroid Cancer,Stage II,No preference,Yes,No,6,0.007,No,No
+D131,Walid Obeidat,Male,Individual,Jerash,General Donation,20,Monthly,240,Coupon (10/20/50 JD),Leukemia,Stage IV,No,Yes,No,5,0.008,No,Yes
+D132,Bilal Al-Tarawneh,Male,Individual,Ma'an,Goodwill Fund,10,Annual,10,Coin Box,Cervical Cancer,Stage IV,No preference,Yes,No,5,0.0,No,Yes
+D133,Aramex Jordan,Unknown,Corporate,Irbid,Goodwill Fund,5000,Semi-Annual,10000,eFAWATEERcom,Leukemia,Stage IV,Yes,Yes,No,4,0.333,No,Yes
+D134,Save the Children Jordan,Unknown,NGO,Ajloun,Zakat Fund,500,Annual,500,Wire Transfer,Lymphoma,Any,No,Yes,Yes,15,0.017,No,Yes
+D135,Zain Jordan,Unknown,Corporate,Aqaba,General Donation,2000,Quarterly,8000,Bank Transfer,Breast Cancer,Any,Yes,Yes,No,7,0.267,No,Yes
+D136,Dina Zreiqat,Female,Individual,Balqa,Goodwill Fund,500,Quarterly,2000,Bank Transfer,Any,Any,Yes,Yes,No,11,0.067,No,Yes
+D137,Save the Children Jordan,Unknown,NGO,Karak,Goodwill Fund,5000,Annual,5000,Credit Card (Arab Bank),Any,Any,No preference,Yes,No,10,0.167,No,No
+D138,Bilal Al-Rousan,Male,Individual,Zarqa,Goodwill Fund,200,Monthly,2400,Bank Transfer,Any,Any,No preference,Yes,No,12,0.08,No,Yes
+D139,Anonymous Donor,Female,Anonymous,Madaba,Named/Recognition Program,20,Annual,20,Bank Transfer,Ovarian Cancer,Stage IV,No,Yes,No,9,0.001,Yes,Yes
+D140,Reem Hamdan,Female,Individual,Zarqa,Medical Equipment Program,100,Quarterly,400,Coupon (10/20/50 JD),Prostate Cancer,Any,No,Yes,No,7,0.013,No,Yes
+D141,Rana Rawashdeh,Female,Individual,Tafilah,Zakat Fund,5000,Quarterly,20000,In-Kind,Cervical Cancer,Stage III,No preference,Yes,No,11,0.667,Yes,Yes
+D142,Nuqul Group,Unknown,Corporate,Jerash,Medical Equipment Program,5000,Annual,5000,Bank Transfer,Colorectal Cancer,Stage II,Yes,No,No,15,0.167,No,Yes
+D143,Ahmad Al-Tarawneh,Male,Individual,Karak,General Donation,100,Monthly,1200,Coupon (10/20/50 JD),Lymphoma,Stage III,No preference,No,No,5,0.04,Yes,Yes
+D144,Layla Al-Dmour,Female,Individual,Mafraq,Goodwill Fund,100,Monthly,1200,Coin Box,Breast Cancer,Stage IV,Yes,Yes,No,12,0.04,No,Yes
+D145,Mercy Corps Jordan,Unknown,NGO,Ma'an,Goodwill Fund,500,Quarterly,2000,Credit Card (Arab Bank),Any,Stage II,Yes,Yes,No,11,0.067,Yes,Yes
+D146,Caritas Jordan,Unknown,NGO,Mafraq,Named/Recognition Program,1000,Semi-Annual,2000,Coin Box,Ovarian Cancer,Stage II,Yes,Yes,No,7,0.067,No,No
+D147,Rana Hamdan,Female,Individual,Amman,Goodwill Fund,200,One-Time,200,Coupon (10/20/50 JD),Prostate Cancer,Stage II,Yes,Yes,No,12,0.007,Yes,No
+D148,Mercy Corps Jordan,Unknown,NGO,Ma'an,Medical Equipment Program,1000,Semi-Annual,2000,Coin Box,Ovarian Cancer,Stage II,No,Yes,No,8,0.067,Yes,No
+D149,Jordan River Foundation,Unknown,NGO,Madaba,Goodwill Fund,1000,Annual,1000,In-Kind,Colorectal Cancer,Stage III,Yes,No,No,6,0.033,Yes,Yes
+D150,Dina Ababneh,Female,Individual,Amman,Named/Recognition Program,50,Annual,50,Coin Box,Cervical Cancer,Any,No,Yes,No,6,0.002,No,Yes
+D151,Zain Jordan,Unknown,Corporate,Jerash,Named/Recognition Program,2000,Quarterly,8000,Wire Transfer,Breast Cancer,Stage III,No preference,Yes,No,6,0.267,Yes,Yes
+D152,Aramex Jordan,Unknown,Corporate,Karak,Goodwill Fund,5000,Quarterly,20000,Credit Card (Arab Bank),Lung Cancer,Stage II,No preference,Yes,No,3,0.667,No,Yes
+D153,Heba Fraihat,Female,Individual,Ma'an,General Donation,500,Annual,500,Coin Box,Lung Cancer,Any,No preference,Yes,No,13,0.017,No,Yes
+D154,JETT Transport,Unknown,Corporate,Zarqa,Medical Equipment Program,2000,Quarterly,8000,eFAWATEERcom,Lymphoma,Any,Yes,No,No,14,0.267,No,Yes
+D155,Dina Mustafa,Female,Individual,Tafilah,Zakat Fund,100,Quarterly,400,Coin Box,Thyroid Cancer,Stage II,Yes,No,Yes,14,0.013,No,Yes
+D156,Housing Bank,Unknown,Corporate,Ma'an,Gaza Fund,5000,Semi-Annual,10000,Coupon (10/20/50 JD),Thyroid Cancer,Stage III,No,No,No,12,0.333,No,Yes
+D157,Jawad Smadi,Male,Individual,Aqaba,Named/Recognition Program,50,Quarterly,200,Coupon (10/20/50 JD),Ovarian Cancer,Any,Yes,Yes,No,5,0.007,No,Yes
+D158,Al-Masyaf Co.,Unknown,Corporate,Ma'an,Medical Equipment Program,2000,Annual,2000,Bank Transfer,Any,Stage III,No,Yes,No,8,0.067,Yes,No
+D159,Zain Jordan,Unknown,Corporate,Balqa,Goodwill Fund,1000,Semi-Annual,2000,eFAWATEERcom,Breast Cancer,Stage II,No preference,Yes,No,12,0.067,Yes,Yes
+D160,Ahmad Jaradat,Male,Individual,Mafraq,General Donation,1000,Quarterly,4000,Coupon (10/20/50 JD),Thyroid Cancer,Any,No preference,Yes,No,4,0.133,No,Yes
+D161,Mabanee Jordan,Unknown,Corporate,Zarqa,Medical Equipment Program,10000,Quarterly,40000,Coupon (10/20/50 JD),Cervical Cancer,Any,Yes,Yes,No,6,1.0,Yes,Yes
+D162,Caritas Jordan,Unknown,NGO,Ajloun,Goodwill Fund,500,Annual,500,STS PayOne,Leukemia,Any,No preference,Yes,No,8,0.017,No,Yes
+D163,Layla Mustafa,Female,Individual,Balqa,Gaza Fund,1000,One-Time,1000,Coupon (10/20/50 JD),Prostate Cancer,Stage IV,Yes,No,No,15,0.033,No,Yes
+D164,Aqaba Special Economic Zone,Unknown,Corporate,Ma'an,Goodwill Fund,5000,Semi-Annual,10000,Credit Card (Arab Bank),Prostate Cancer,Stage IV,No preference,Yes,No,9,0.333,No,No
+D165,Wedad Shatnawi,Female,Individual,Zarqa,Gaza Fund,500,Quarterly,2000,In-Kind,Any,Stage I,No,No,No,7,0.067,No,Yes
+D166,Yousef Fraihat,Male,Individual,Aqaba,Zakat Fund,500,Annual,500,In-Kind,Ovarian Cancer,Stage IV,No preference,Yes,Yes,6,0.017,Yes,No
+D167,Ziad Suleiman,Male,Individual,Ma'an,Goodwill Fund,100,Annual,100,Bank Transfer,Any,Any,No preference,Yes,No,2,0.003,No,Yes
+D168,Eyad Mustafa,Male,Individual,Ajloun,General Donation,50,Quarterly,200,eFAWATEERcom,Breast Cancer,Stage III,No,Yes,No,4,0.007,No,Yes
+D169,Omar Al-Zoubi,Male,Individual,Karak,Goodwill Fund,1000,One-Time,1000,Credit Card (Arab Bank),Thyroid Cancer,Stage IV,No,Yes,No,5,0.033,No,Yes
+D170,Hiba Al-Momani,Female,Individual,Irbid,Goodwill Fund,100,One-Time,100,Bank Transfer,Prostate Cancer,Stage I,No,No,No,8,0.003,No,Yes
+D171,Housing Bank,Unknown,Corporate,Mafraq,Zakat Fund,5000,Annual,5000,Coupon (10/20/50 JD),Any,Any,No,No,Yes,7,0.167,No,No
+D172,UNRWA Jordan,Unknown,NGO,Mafraq,Gaza Fund,500,Semi-Annual,1000,Wire Transfer,Colorectal Cancer,Stage III,No,Yes,No,1,0.033,Yes,Yes
+D173,Greater Amman Municipality,Unknown,Government,Ma'an,Goodwill Fund,5000,Annual,5000,Coupon (10/20/50 JD),Bladder Cancer,Any,No preference,Yes,No,1,0.167,No,Yes
+D174,Hiba Mustafa,Female,Individual,Karak,Named/Recognition Program,500,Monthly,6000,Coin Box,Colorectal Cancer,Stage IV,No preference,Yes,No,3,0.2,No,Yes
+D175,Al-Masyaf Co.,Unknown,Corporate,Irbid,Medical Equipment Program,25000,Semi-Annual,50000,Bank Transfer,Lung Cancer,Stage II,Yes,Yes,No,2,1.0,No,Yes
+D176,Anonymous Donor,Female,Anonymous,Mafraq,Named/Recognition Program,1000,Quarterly,4000,In-Kind,Thyroid Cancer,Stage III,No,No,No,6,0.133,Yes,Yes
+D177,Ahmad Fraihat,Male,Individual,Irbid,Medical Equipment Program,1000,Annual,1000,Coupon (10/20/50 JD),Any,Any,Yes,Yes,No,8,0.033,No,Yes
+D178,Nuqul Group,Unknown,Corporate,Zarqa,Gaza Fund,25000,Annual,25000,Coin Box,Bone Cancer,Stage II,No,Yes,No,2,0.833,No,Yes
+D179,Fadi Bani-Hani,Male,Individual,Irbid,Named/Recognition Program,500,Annual,500,Credit Card (Arab Bank),Breast Cancer,Stage IV,Yes,No,No,13,0.017,No,No
+D180,Anonymous Donor,Male,Anonymous,Jerash,Named/Recognition Program,1000,Monthly,12000,Credit Card (Arab Bank),Prostate Cancer,Stage I,No preference,Yes,No,14,0.4,Yes,Yes
+D181,Faris Hamdan,Male,Individual,Aqaba,Named/Recognition Program,100,One-Time,100,Coin Box,Any,Stage IV,No preference,No,No,8,0.003,No,Yes
+D182,Fadi Obeidat,Male,Individual,Amman,Named/Recognition Program,100,Annual,100,Bank Transfer,Breast Cancer,Any,No,Yes,No,1,0.003,No,Yes
+D183,Alaa Suleiman,Female,Individual,Ma'an,Goodwill Fund,50,Annual,50,eFAWATEERcom,Cervical Cancer,Stage IV,No preference,Yes,No,6,0.002,No,No
+D184,Rana Al-Zoubi,Female,Individual,Jerash,Goodwill Fund,200,Monthly,2400,Coupon (10/20/50 JD),Colorectal Cancer,Any,No preference,Yes,No,2,0.08,No,Yes
+D185,Noha Suleiman,Female,Individual,Ma'an,Named/Recognition Program,1000,Quarterly,4000,Credit Card (Arab Bank),Any,Stage II,Yes,Yes,No,5,0.133,No,Yes
+D186,Anonymous Donor,Female,Anonymous,Balqa,Medical Equipment Program,50,Monthly,600,Bank Transfer,Any,Any,No,Yes,No,2,0.02,Yes,Yes
+D187,Nour Al-Momani,Female,Individual,Karak,Goodwill Fund,100,Monthly,1200,Credit Card (Arab Bank),Any,Any,No,Yes,No,2,0.04,Yes,Yes
+D188,Aqaba Development Corp,Unknown,Government,Madaba,Medical Equipment Program,10000,Annual,10000,Credit Card (Arab Bank),Thyroid Cancer,Any,Yes,Yes,No,3,0.333,No,No
+D189,Ministry of Social Development,Unknown,Government,Ajloun,Medical Equipment Program,5000,Annual,5000,Bank Transfer,Any,Stage II,No preference,Yes,No,14,0.167,Yes,No
+D190,JETT Transport,Unknown,Corporate,Madaba,Named/Recognition Program,25000,Quarterly,100000,Coupon (10/20/50 JD),Lung Cancer,Any,Yes,Yes,No,2,1.0,No,Yes
+D191,Housing Bank,Unknown,Corporate,Amman,Goodwill Fund,5000,Quarterly,20000,Coupon (10/20/50 JD),Ovarian Cancer,Stage IV,No preference,Yes,No,2,0.667,No,Yes
+D192,Tkiyet Um Ali,Unknown,NGO,Jerash,Zakat Fund,500,Annual,500,eFAWATEERcom,Leukemia,Stage II,Yes,Yes,Yes,4,0.017,No,No
+D193,Rami Suleiman,Male,Individual,Aqaba,Zakat Fund,100,Quarterly,400,Coin Box,Prostate Cancer,Stage IV,Yes,Yes,Yes,9,0.013,Yes,Yes
+D194,Bilal Al-Hassan,Male,Individual,Ajloun,Medical Equipment Program,200,Quarterly,800,Credit Card (Arab Bank),Cervical Cancer,Any,No preference,No,No,6,0.027,Yes,Yes
+D195,Zain Jordan,Unknown,Corporate,Irbid,Zakat Fund,1000,Semi-Annual,2000,Coupon (10/20/50 JD),Lymphoma,Stage II,No preference,Yes,Yes,14,0.067,Yes,Yes
+D196,Greater Amman Municipality,Unknown,Government,Ajloun,General Donation,10000,Annual,10000,eFAWATEERcom,Brain Tumor,Stage III,Yes,No,No,4,0.333,No,Yes
+D197,Jordan Telecom,Unknown,Corporate,Irbid,Goodwill Fund,5000,Annual,5000,eFAWATEERcom,Bone Cancer,Stage II,Yes,Yes,No,9,0.167,No,Yes
+D198,Nour Mustafa,Female,Individual,Irbid,Goodwill Fund,500,Quarterly,2000,eFAWATEERcom,Lung Cancer,Any,Yes,Yes,No,9,0.067,No,Yes
+D199,Nour Zreiqat,Female,Individual,Tafilah,Goodwill Fund,20,Annual,20,Coin Box,Thyroid Cancer,Stage III,No,Yes,No,14,0.001,No,Yes
+D200,Save the Children Jordan,Unknown,NGO,Tafilah,Goodwill Fund,500,Quarterly,2000,Bank Transfer,Any,Stage I,No preference,Yes,No,12,0.067,Yes,Yes
+D201,Mercy Corps Jordan,Unknown,NGO,Aqaba,General Donation,500,Semi-Annual,1000,Coupon (10/20/50 JD),Any,Stage IV,No,Yes,No,13,0.033,No,Yes
+D202,Mercy Corps Jordan,Unknown,NGO,Madaba,Zakat Fund,500,Semi-Annual,1000,Coupon (10/20/50 JD),Brain Tumor,Stage I,No preference,Yes,No,13,0.033,Yes,Yes
+D203,Dina Nsour,Female,Individual,Jerash,Gaza Fund,100,Annual,100,Wire Transfer,Leukemia,Stage III,No preference,No,No,2,0.003,No,No
+D204,Hassan Zreiqat,Male,Individual,Ajloun,Named/Recognition Program,200,Annual,200,Wire Transfer,Any,Stage II,No preference,No,No,15,0.007,No,No
+D205,Fatima Ababneh,Female,Individual,Amman,General Donation,1000,Annual,1000,Bank Transfer,Colorectal Cancer,Stage II,No preference,No,No,13,0.033,Yes,No
+D206,Greater Amman Municipality,Unknown,Government,Balqa,General Donation,5000,Annual,5000,Coin Box,Colorectal Cancer,Stage III,Yes,No,No,9,0.167,No,Yes
+D207,Nadia Obeidat,Female,Individual,Ma'an,Goodwill Fund,10,Annual,10,Coin Box,Breast Cancer,Stage III,No preference,Yes,No,9,0.0,No,Yes
+D208,Jordan River Foundation,Unknown,NGO,Ma'an,Medical Equipment Program,500,Quarterly,2000,Wire Transfer,Leukemia,Stage II,Yes,Yes,No,6,0.067,No,Yes
+D209,Caritas Jordan,Unknown,NGO,Madaba,Zakat Fund,3000,Quarterly,12000,Coin Box,Any,Stage I,No preference,Yes,No,9,0.4,No,Yes
+D210,Al-Amal NGO,Unknown,NGO,Jerash,Goodwill Fund,3000,Semi-Annual,6000,Bank Transfer,Any,Stage IV,No,Yes,No,8,0.2,No,No
+D211,Nuqul Group,Unknown,Corporate,Karak,Medical Equipment Program,10000,Semi-Annual,20000,Coin Box,Thyroid Cancer,Stage IV,No preference,Yes,No,12,0.667,Yes,Yes
+D212,Yousef Nabulsi,Male,Individual,Jerash,Goodwill Fund,200,One-Time,200,Bank Transfer,Breast Cancer,Stage II,No preference,Yes,No,9,0.007,No,Yes
+D213,Nuqul Group,Unknown,Corporate,Zarqa,Goodwill Fund,5000,Annual,5000,Coin Box,Any,Any,No,Yes,No,5,0.167,Yes,Yes
+D214,Tkiyet Um Ali,Unknown,NGO,Karak,Zakat Fund,5000,Semi-Annual,10000,In-Kind,Breast Cancer,Stage III,No,Yes,No,6,0.333,No,Yes
+D215,Ola Hamdan,Female,Individual,Madaba,Named/Recognition Program,100,Annual,100,Coin Box,Brain Tumor,Stage II,No,Yes,No,11,0.003,Yes,Yes
+D216,Aqaba Development Corp,Unknown,Government,Zarqa,General Donation,10000,Annual,10000,Coupon (10/20/50 JD),Breast Cancer,Stage I,No preference,Yes,No,11,0.333,Yes,No
+D217,Jordan Islamic Bank,Unknown,Corporate,Irbid,Named/Recognition Program,5000,Quarterly,20000,Coupon (10/20/50 JD),Thyroid Cancer,Stage II,Yes,Yes,No,10,0.667,No,Yes
+D218,Anonymous Donor,Male,Anonymous,Jerash,Medical Equipment Program,10,Annual,10,Coin Box,Bone Cancer,Any,Yes,Yes,No,14,0.0,Yes,No
+D219,Sara Al-Rousan,Female,Individual,Amman,Zakat Fund,1000,Quarterly,4000,Bank Transfer,Any,Stage II,No,Yes,No,2,0.133,No,Yes
+D220,Tamer Al-Khalidi,Male,Individual,Irbid,Zakat Fund,100,Monthly,1200,Coin Box,Lung Cancer,Any,Yes,Yes,Yes,6,0.04,No,Yes
+D221,Wedad Al-Zoubi,Female,Individual,Zarqa,Goodwill Fund,50,Annual,50,Bank Transfer,Lymphoma,Stage II,Yes,Yes,No,1,0.002,No,No
+D222,Arab Bank,Unknown,Corporate,Jerash,Goodwill Fund,5000,Annual,5000,Coupon (10/20/50 JD),Bone Cancer,Stage III,Yes,No,No,11,0.167,No,No
+D223,Hikma Pharmaceuticals,Unknown,Corporate,Zarqa,General Donation,5000,Annual,5000,Coupon (10/20/50 JD),Bone Cancer,Stage III,No preference,Yes,No,15,0.167,Yes,Yes
+D224,Hiba Shatnawi,Female,Individual,Ma'an,Gaza Fund,10,One-Time,10,Coin Box,Bladder Cancer,Stage IV,No,Yes,No,14,0.0,No,No
+D225,Fadi Al-Khalidi,Male,Individual,Ajloun,Named/Recognition Program,500,Annual,500,STS PayOne,Cervical Cancer,Any,No preference,Yes,No,15,0.017,No,No
+D226,Anonymous Donor,Female,Anonymous,Mafraq,Goodwill Fund,5000,Quarterly,20000,Coin Box,Bladder Cancer,Any,No preference,Yes,No,11,0.667,Yes,Yes
+D227,Anonymous Donor,Female,Anonymous,Amman,Gaza Fund,200,Quarterly,800,In-Kind,Prostate Cancer,Stage III,No preference,Yes,No,13,0.027,Yes,Yes
+D228,Ministry of Social Development,Unknown,Government,Tafilah,Goodwill Fund,25000,Annual,25000,Credit Card (Arab Bank),Prostate Cancer,Stage I,No,No,No,6,0.833,Yes,Yes
+D229,UNRWA Jordan,Unknown,NGO,Zarqa,Zakat Fund,5000,Semi-Annual,10000,Bank Transfer,Brain Tumor,Stage III,No preference,No,Yes,2,0.333,No,Yes
+D230,Nour Zreiqat,Female,Individual,Mafraq,Zakat Fund,200,Annual,200,Bank Transfer,Bone Cancer,Stage II,Yes,Yes,Yes,8,0.007,No,Yes
+D231,JETT Transport,Unknown,Corporate,Ma'an,Named/Recognition Program,5000,Annual,5000,Coin Box,Brain Tumor,Any,No preference,Yes,No,15,0.167,No,Yes
+D232,UNRWA Jordan,Unknown,NGO,Aqaba,Named/Recognition Program,3000,Quarterly,12000,Coin Box,Leukemia,Stage IV,No preference,No,No,11,0.4,No,Yes
+D233,Aqaba Development Corp,Unknown,Government,Ajloun,General Donation,10000,Annual,10000,Bank Transfer,Lymphoma,Stage II,No preference,Yes,No,15,0.333,No,Yes
+D234,Rola Hamdan,Female,Individual,Madaba,Goodwill Fund,20,Monthly,240,Coin Box,Any,Stage III,No preference,Yes,No,2,0.008,No,Yes
+D235,Alaa Al-Khalidi,Female,Individual,Ma'an,Medical Equipment Program,10,Quarterly,40,Bank Transfer,Brain Tumor,Stage IV,No,Yes,No,2,0.001,Yes,Yes
+D236,Nisreen Obeidat,Female,Individual,Tafilah,General Donation,1000,Annual,1000,Coin Box,Brain Tumor,Stage II,No preference,Yes,No,2,0.033,No,Yes
+D237,Walid Zreiqat,Male,Individual,Jerash,Goodwill Fund,200,Quarterly,800,Bank Transfer,Any,Any,No,Yes,No,2,0.027,Yes,Yes
+D238,Ibrahim Al-Zoubi,Male,Individual,Jerash,General Donation,1000,Annual,1000,Coupon (10/20/50 JD),Bone Cancer,Stage III,No,No,No,6,0.033,No,Yes
+D239,Bassam Al-Tarawneh,Male,Individual,Karak,Goodwill Fund,100,Quarterly,400,Coin Box,Thyroid Cancer,Any,Yes,Yes,No,1,0.013,No,Yes
+D240,Nadia Suleiman,Female,Individual,Madaba,Zakat Fund,1000,Annual,1000,Bank Transfer,Lung Cancer,Stage I,No,Yes,Yes,11,0.033,No,Yes
+D241,Hassan Ababneh,Male,Individual,Balqa,Gaza Fund,200,Monthly,2400,Bank Transfer,Any,Stage II,No preference,Yes,No,10,0.08,No,Yes
+D242,Jordan Armed Forces Fund,Unknown,Government,Madaba,Medical Equipment Program,10000,Annual,10000,Bank Transfer,Leukemia,Stage III,Yes,Yes,No,4,0.333,No,Yes
+D243,Hikma Pharmaceuticals,Unknown,Corporate,Karak,Goodwill Fund,5000,Semi-Annual,10000,eFAWATEERcom,Colorectal Cancer,Stage I,Yes,Yes,No,1,0.333,No,No
+D244,Walid Shatnawi,Male,Individual,Jerash,Goodwill Fund,200,Annual,200,Bank Transfer,Any,Any,Yes,Yes,No,15,0.007,No,Yes
+D245,Samir Al-Tarawneh,Male,Individual,Amman,Goodwill Fund,50,Monthly,600,In-Kind,Any,Stage II,Yes,Yes,No,15,0.02,No,Yes
+D246,Khaled Ababneh,Male,Individual,Ma'an,Goodwill Fund,100,Annual,100,Credit Card (Arab Bank),Leukemia,Stage III,Yes,Yes,No,15,0.003,No,Yes
+D247,Nour Obeidat,Female,Individual,Karak,Zakat Fund,200,One-Time,200,eFAWATEERcom,Bladder Cancer,Stage IV,No,Yes,Yes,1,0.007,No,Yes
+D248,Jordan Armed Forces Fund,Unknown,Government,Jerash,Goodwill Fund,5000,Annual,5000,Coin Box,Thyroid Cancer,Any,No preference,Yes,No,13,0.167,No,No
+D249,Ahmad Nabulsi,Male,Individual,Madaba,Medical Equipment Program,100,One-Time,100,Coin Box,Bladder Cancer,Stage II,No preference,No,No,1,0.003,No,Yes
+D250,Greater Amman Municipality,Unknown,Government,Balqa,Zakat Fund,5000,Annual,5000,In-Kind,Bladder Cancer,Stage IV,No,Yes,Yes,3,0.167,No,No

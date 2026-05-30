@@ -1,0 +1,379 @@
+Match ID,Patient ID,Donor ID,Fund Used,Amount Given JD,Match Date,Outcome,Notes,Allocated To,Donor Impact Note
+M0001,P114,D133,Goodwill Fund,200,2023-09-29,Partially Funded,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0002,P116,D120,Goodwill Fund,200,2022-10-07,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0003,P046,D114,Goodwill Fund,100,2022-03-26,Partially Funded,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0004,P202,D071,Gaza Fund,10,2022-02-09,Fully Funded,Standard application,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0005,P086,D051,Named/Recognition Program,2000,2024-02-26,Fully Funded,Supporting documents reviewed,General,Named donation matched to high-need patient
+M0006,P049,D181,Named/Recognition Program,5000,2024-01-04,Fully Funded,Supporting documents reviewed,General,Named donation matched to high-need patient
+M0007,P003,D198,Goodwill Fund,500,2023-02-18,Waitlisted,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0008,P121,D168,Medical Equipment Program,200,2023-02-12,Waitlisted,Approved by committee,Medical Equipment,Patient received home medical equipment for recovery
+M0009,P186,D192,Goodwill Fund,200,2023-07-20,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Covered essential household expenses during recovery
+M0010,P088,D203,Goodwill Fund,100,2024-08-22,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0011,P054,D113,Medical Equipment Program,500,2023-08-15,Partially Funded,Approved by committee,Medical Equipment,Provided essential device for post-treatment home care
+M0012,P242,D189,Goodwill Fund,1000,2022-12-14,Waitlisted,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0013,P109,D176,General Donation,500,2022-11-03,Waitlisted,Pending verification,General,Donation directed toward general patient support fund
+M0014,P146,D202,Goodwill Fund,5000,2022-12-05,Fully Funded,Standard application,Goodwill / Zakat,Covered essential household expenses during recovery
+M0015,P098,D053,Zakat Fund,100,2023-05-02,Fully Funded,Documents submitted,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0016,P146,D247,Medical Equipment Program,200,2022-04-17,Waitlisted,Supporting documents reviewed,Medical Equipment,Patient received home medical equipment for recovery
+M0017,P009,D212,Named/Recognition Program,500,2022-03-13,Fully Funded,Urgent case prioritized,General,Named donation matched to high-need patient
+M0018,P053,D060,Goodwill Fund,200,2023-01-13,Partially Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0019,P044,D084,Gaza Fund,20,2022-04-24,Fully Funded,Approved by committee,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0020,P123,D191,Goodwill Fund,1000,2022-05-14,Referred to Other Fund,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0021,P111,D210,Named/Recognition Program,2000,2024-08-19,Fully Funded,Pending verification,General,Donor recognition applied; patient fully supported
+M0022,P129,D184,Named/Recognition Program,500,2022-05-27,Fully Funded,Urgent case prioritized,General,Donor recognition applied; patient fully supported
+M0023,P212,D103,Named/Recognition Program,1000,2023-08-06,Fully Funded,Urgent case prioritized,General,Named donation matched to high-need patient
+M0024,P119,D148,Goodwill Fund,500,2024-07-29,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Covered essential household expenses during recovery
+M0025,P180,D216,General Donation,200,2024-04-09,Fully Funded,Approved by committee,General,Supported hospital transport and lodging costs
+M0026,P064,D046,Gaza Fund,200,2024-07-21,Partially Funded,Supporting documents reviewed,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0027,P179,D146,Goodwill Fund,10,2024-06-25,Partially Funded,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0028,P226,D161,Medical Equipment Program,200,2024-01-14,Partially Funded,Supporting documents reviewed,Medical Equipment,Patient received home medical equipment for recovery
+M0029,P233,D127,Goodwill Fund,20,2023-01-13,Waitlisted,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0030,P130,D197,General Donation,50,2022-08-01,Fully Funded,Standard application,General,Donation directed toward general patient support fund
+M0031,P119,D007,Goodwill Fund,500,2023-01-26,Partially Funded,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0032,P220,D050,Goodwill Fund,20,2024-07-28,Fully Funded,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0033,P172,D192,Medical Equipment Program,200,2023-11-04,Fully Funded,Approved by committee,Medical Equipment,Provided essential device for post-treatment home care
+M0034,P036,D121,General Donation,50,2022-01-19,Waitlisted,Standard application,General,Donation directed toward general patient support fund
+M0035,P046,D076,Goodwill Fund,50,2023-11-19,Partially Funded,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0036,P040,D113,Goodwill Fund,10,2023-11-23,Fully Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0037,P114,D179,Goodwill Fund,200,2023-11-10,Partially Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0038,P100,D177,Goodwill Fund,5,2024-03-01,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0039,P238,D064,Goodwill Fund,20,2023-03-08,Fully Funded,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0040,P087,D211,Goodwill Fund,50,2024-06-22,Partially Funded,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0041,P186,D043,Goodwill Fund,1000,2022-11-27,Partially Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0042,P160,D054,Zakat Fund,100,2022-08-26,Fully Funded,Approved by committee,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0043,P092,D083,Goodwill Fund,100,2023-02-03,Fully Funded,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0044,P057,D017,Named/Recognition Program,2000,2022-02-14,Fully Funded,Documents submitted,General,Donor recognition applied; patient fully supported
+M0045,P106,D078,General Donation,5000,2023-12-31,Partially Funded,Standard application,General,Donation directed toward general patient support fund
+M0046,P065,D246,Goodwill Fund,500,2023-02-02,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0047,P086,D045,Named/Recognition Program,1000,2024-05-21,Waitlisted,Supporting documents reviewed,General,Named donation matched to high-need patient
+M0048,P018,D086,Goodwill Fund,200,2023-06-08,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0049,P129,D151,Named/Recognition Program,500,2024-02-17,Fully Funded,Documents submitted,General,Named donation matched to high-need patient
+M0050,P061,D189,Goodwill Fund,10,2022-05-21,Fully Funded,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0051,P076,D052,Goodwill Fund,10,2024-08-03,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0052,P190,D225,Goodwill Fund,500,2024-02-18,Fully Funded,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0053,P166,D209,Goodwill Fund,1000,2022-12-06,Fully Funded,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0054,P053,D139,Goodwill Fund,5000,2024-03-31,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0055,P156,D224,Goodwill Fund,200,2022-01-07,Fully Funded,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0056,P018,D245,Goodwill Fund,20,2022-07-29,Partially Funded,Approved by committee,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0057,P045,D152,Medical Equipment Program,200,2023-06-04,Waitlisted,Documents submitted,Medical Equipment,Provided essential device for post-treatment home care
+M0058,P186,D120,Goodwill Fund,50,2022-06-30,Partially Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0059,P078,D074,Medical Equipment Program,200,2024-06-02,Referred to Other Fund,Urgent case prioritized,Medical Equipment,Patient received home medical equipment for recovery
+M0060,P244,D249,Goodwill Fund,200,2023-03-09,Fully Funded,Standard application,Goodwill / Zakat,Covered essential household expenses during recovery
+M0061,P195,D040,General Donation,5,2023-01-26,Waitlisted,Urgent case prioritized,General,Donation directed toward general patient support fund
+M0062,P195,D233,Gaza Fund,20,2024-01-15,Partially Funded,Approved by committee,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0063,P098,D119,Goodwill Fund,200,2023-05-08,Fully Funded,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0064,P035,D184,Medical Equipment Program,200,2022-01-14,Fully Funded,Standard application,Medical Equipment,Provided essential device for post-treatment home care
+M0065,P126,D104,Gaza Fund,5000,2023-01-18,Waitlisted,Urgent case prioritized,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0066,P079,D165,Zakat Fund,1000,2024-08-01,Fully Funded,Documents submitted,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0067,P239,D145,Goodwill Fund,2000,2024-02-29,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0068,P131,D182,Medical Equipment Program,1000,2023-10-29,Partially Funded,Urgent case prioritized,Medical Equipment,Provided essential device for post-treatment home care
+M0069,P189,D064,Goodwill Fund,1000,2023-10-09,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0070,P179,D171,Named/Recognition Program,1000,2023-11-29,Fully Funded,Approved by committee,General,Named donation matched to high-need patient
+M0071,P064,D155,Medical Equipment Program,200,2022-04-30,Partially Funded,Documents submitted,Medical Equipment,Provided essential device for post-treatment home care
+M0072,P102,D181,Named/Recognition Program,2000,2022-07-13,Waitlisted,Urgent case prioritized,General,Donor recognition applied; patient fully supported
+M0073,P213,D110,Goodwill Fund,2000,2023-11-06,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Covered essential household expenses during recovery
+M0074,P188,D106,General Donation,1000,2022-04-22,Waitlisted,Supporting documents reviewed,General,Supported hospital transport and lodging costs
+M0075,P209,D037,Goodwill Fund,500,2023-12-17,Fully Funded,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0076,P044,D209,Medical Equipment Program,1000,2023-03-04,Fully Funded,Standard application,Medical Equipment,Provided essential device for post-treatment home care
+M0077,P168,D074,General Donation,100,2023-12-22,Fully Funded,Approved by committee,General,Donation directed toward general patient support fund
+M0078,P125,D047,Medical Equipment Program,500,2022-08-06,Fully Funded,Approved by committee,Medical Equipment,Patient received home medical equipment for recovery
+M0079,P016,D192,Goodwill Fund,50,2024-07-12,Partially Funded,Urgent case prioritized,Goodwill / Zakat,Covered essential household expenses during recovery
+M0080,P161,D234,Named/Recognition Program,500,2022-10-28,Waitlisted,Documents submitted,General,Named donation matched to high-need patient
+M0081,P032,D071,Goodwill Fund,50,2023-05-12,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0082,P003,D016,Goodwill Fund,500,2024-03-19,Referred to Other Fund,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0083,P055,D134,General Donation,200,2024-09-12,Fully Funded,Pending verification,General,Supported hospital transport and lodging costs
+M0084,P122,D194,Goodwill Fund,100,2024-06-30,Fully Funded,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0085,P210,D062,Zakat Fund,100,2022-02-28,Partially Funded,Pending verification,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0086,P207,D026,Goodwill Fund,100,2024-05-05,Waitlisted,Approved by committee,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0087,P155,D032,Gaza Fund,500,2024-04-14,Fully Funded,Approved by committee,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0088,P116,D159,Named/Recognition Program,2000,2023-11-08,Waitlisted,Approved by committee,General,Donor recognition applied; patient fully supported
+M0089,P164,D246,Zakat Fund,500,2024-06-13,Fully Funded,Documents submitted,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0090,P174,D114,Goodwill Fund,500,2024-03-24,Fully Funded,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0091,P110,D241,Zakat Fund,5000,2024-05-27,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0092,P188,D099,Goodwill Fund,20,2023-06-17,Fully Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0093,P033,D128,General Donation,500,2023-07-16,Fully Funded,Urgent case prioritized,General,Donation directed toward general patient support fund
+M0094,P230,D115,Zakat Fund,200,2022-09-07,Fully Funded,Approved by committee,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0095,P193,D242,Named/Recognition Program,1000,2024-01-03,Fully Funded,Documents submitted,General,Donor recognition applied; patient fully supported
+M0096,P238,D238,Goodwill Fund,100,2024-01-07,Fully Funded,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0097,P244,D230,Named/Recognition Program,10000,2023-10-11,Partially Funded,Supporting documents reviewed,General,Named donation matched to high-need patient
+M0098,P024,D204,Named/Recognition Program,10000,2024-02-24,Waitlisted,Standard application,General,Donor recognition applied; patient fully supported
+M0099,P165,D088,Goodwill Fund,500,2023-01-26,Partially Funded,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0100,P207,D060,Goodwill Fund,20,2022-04-02,Fully Funded,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0101,P191,D242,Goodwill Fund,1000,2024-09-03,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0102,P080,D016,Named/Recognition Program,1000,2023-03-10,Fully Funded,Pending verification,General,Named donation matched to high-need patient
+M0103,P205,D174,Zakat Fund,500,2023-08-28,Fully Funded,Approved by committee,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0104,P102,D003,Medical Equipment Program,200,2024-08-23,Fully Funded,Pending verification,Medical Equipment,Patient received home medical equipment for recovery
+M0105,P128,D175,Medical Equipment Program,200,2023-11-13,Partially Funded,Supporting documents reviewed,Medical Equipment,Patient received home medical equipment for recovery
+M0106,P154,D082,Goodwill Fund,20,2024-05-18,Referred to Other Fund,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0107,P162,D213,Goodwill Fund,2000,2022-03-02,Fully Funded,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0108,P212,D184,Goodwill Fund,1000,2023-12-19,Partially Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0109,P237,D222,General Donation,500,2022-11-03,Waitlisted,Supporting documents reviewed,General,Donation directed toward general patient support fund
+M0110,P006,D141,Goodwill Fund,200,2022-12-23,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Covered essential household expenses during recovery
+M0111,P019,D136,General Donation,2000,2023-12-19,Fully Funded,Standard application,General,Supported hospital transport and lodging costs
+M0112,P025,D034,Goodwill Fund,1000,2022-02-25,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0113,P118,D168,Goodwill Fund,500,2022-10-26,Fully Funded,Approved by committee,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0114,P056,D206,General Donation,5,2024-01-14,Partially Funded,Standard application,General,Donation directed toward general patient support fund
+M0115,P174,D202,Zakat Fund,2000,2023-03-14,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0116,P238,D015,Goodwill Fund,50,2022-02-23,Referred to Other Fund,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0117,P152,D112,Zakat Fund,100,2022-02-04,Partially Funded,Documents submitted,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0118,P102,D126,Goodwill Fund,50,2024-02-03,Partially Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0119,P200,D119,Gaza Fund,50,2023-10-31,Partially Funded,Urgent case prioritized,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0120,P003,D031,Goodwill Fund,500,2024-07-19,Fully Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0121,P006,D151,Medical Equipment Program,200,2024-02-03,Partially Funded,Documents submitted,Medical Equipment,Patient received home medical equipment for recovery
+M0122,P099,D124,Zakat Fund,100,2022-05-09,Partially Funded,Documents submitted,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0123,P017,D183,Gaza Fund,50,2024-04-12,Waitlisted,Supporting documents reviewed,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0124,P101,D143,General Donation,200,2022-03-07,Waitlisted,Standard application,General,Donation directed toward general patient support fund
+M0125,P193,D193,Goodwill Fund,20,2024-06-01,Partially Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0126,P002,D143,Medical Equipment Program,200,2023-08-12,Fully Funded,Approved by committee,Medical Equipment,Patient received home medical equipment for recovery
+M0127,P023,D144,Goodwill Fund,20,2022-05-08,Partially Funded,Standard application,Goodwill / Zakat,Covered essential household expenses during recovery
+M0128,P094,D248,Medical Equipment Program,2000,2022-01-01,Fully Funded,Approved by committee,Medical Equipment,Provided essential device for post-treatment home care
+M0129,P012,D243,Zakat Fund,100,2023-07-01,Waitlisted,Urgent case prioritized,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0130,P148,D126,Named/Recognition Program,10000,2022-12-27,Partially Funded,Standard application,General,Donor recognition applied; patient fully supported
+M0131,P177,D026,Named/Recognition Program,500,2022-05-26,Fully Funded,Pending verification,General,Donor recognition applied; patient fully supported
+M0132,P246,D035,Named/Recognition Program,1000,2022-05-12,Fully Funded,Supporting documents reviewed,General,Named donation matched to high-need patient
+M0133,P020,D141,Goodwill Fund,1000,2023-02-14,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0134,P242,D066,Named/Recognition Program,500,2022-07-28,Waitlisted,Documents submitted,General,Named donation matched to high-need patient
+M0135,P163,D179,Named/Recognition Program,2000,2023-10-26,Partially Funded,Standard application,General,Donor recognition applied; patient fully supported
+M0136,P108,D211,Goodwill Fund,200,2022-01-27,Referred to Other Fund,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0137,P020,D070,Goodwill Fund,200,2022-03-09,Fully Funded,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0138,P093,D233,Goodwill Fund,1000,2022-08-20,Fully Funded,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0139,P026,D097,Zakat Fund,2000,2024-03-12,Fully Funded,Documents submitted,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0140,P135,D187,Gaza Fund,500,2022-04-08,Partially Funded,Standard application,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0141,P180,D147,Gaza Fund,200,2024-07-07,Partially Funded,Documents submitted,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0142,P082,D243,General Donation,500,2023-11-26,Fully Funded,Standard application,General,Supported hospital transport and lodging costs
+M0143,P123,D152,Goodwill Fund,200,2022-06-09,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0144,P037,D097,Medical Equipment Program,2000,2023-10-17,Fully Funded,Pending verification,Medical Equipment,Patient received home medical equipment for recovery
+M0145,P174,D156,Goodwill Fund,200,2022-12-29,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Covered essential household expenses during recovery
+M0146,P071,D244,Goodwill Fund,1000,2024-04-13,Waitlisted,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0147,P163,D220,Goodwill Fund,500,2024-05-15,Fully Funded,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0148,P020,D187,Goodwill Fund,200,2022-03-28,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0149,P142,D238,Medical Equipment Program,2000,2023-03-11,Waitlisted,Supporting documents reviewed,Medical Equipment,Patient received home medical equipment for recovery
+M0150,P123,D128,Medical Equipment Program,1000,2023-12-16,Referred to Other Fund,Documents submitted,Medical Equipment,Provided essential device for post-treatment home care
+M0151,P004,D158,Goodwill Fund,5,2023-03-12,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0152,P063,D190,Named/Recognition Program,10000,2024-08-25,Waitlisted,Standard application,General,Donor recognition applied; patient fully supported
+M0153,P156,D115,Zakat Fund,1000,2023-06-21,Partially Funded,Approved by committee,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0154,P020,D094,Gaza Fund,2000,2023-03-09,Partially Funded,Urgent case prioritized,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0155,P044,D096,Zakat Fund,500,2024-05-01,Fully Funded,Standard application,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0156,P075,D077,Medical Equipment Program,200,2023-10-09,Fully Funded,Standard application,Medical Equipment,Provided essential device for post-treatment home care
+M0157,P056,D237,Goodwill Fund,500,2024-04-25,Waitlisted,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0158,P229,D159,Gaza Fund,5,2023-04-17,Fully Funded,Pending verification,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0159,P091,D028,Goodwill Fund,50,2022-12-30,Waitlisted,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0160,P111,D126,Goodwill Fund,1000,2023-02-25,Partially Funded,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0161,P002,D040,General Donation,200,2023-01-19,Fully Funded,Pending verification,General,Supported hospital transport and lodging costs
+M0162,P110,D229,Goodwill Fund,20,2023-03-26,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0163,P042,D036,Goodwill Fund,100,2024-06-10,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0164,P029,D049,Goodwill Fund,100,2022-12-06,Fully Funded,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0165,P171,D051,Zakat Fund,5000,2022-05-02,Referred to Other Fund,Urgent case prioritized,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0166,P141,D127,General Donation,100,2024-02-22,Partially Funded,Urgent case prioritized,General,Supported hospital transport and lodging costs
+M0167,P034,D029,Zakat Fund,20,2022-12-19,Waitlisted,Standard application,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0168,P197,D176,Goodwill Fund,100,2024-09-26,Partially Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0169,P112,D123,Goodwill Fund,500,2022-09-11,Fully Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0170,P187,D131,Goodwill Fund,20,2022-09-27,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0171,P171,D211,Goodwill Fund,500,2022-04-16,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0172,P049,D219,Named/Recognition Program,1000,2022-05-16,Partially Funded,Urgent case prioritized,General,Donor recognition applied; patient fully supported
+M0173,P071,D050,Gaza Fund,200,2022-04-04,Fully Funded,Documents submitted,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0174,P105,D135,Goodwill Fund,50,2022-12-11,Partially Funded,Urgent case prioritized,Goodwill / Zakat,Covered essential household expenses during recovery
+M0175,P016,D131,Goodwill Fund,20,2023-01-08,Fully Funded,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0176,P183,D108,Goodwill Fund,50,2022-01-01,Waitlisted,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0177,P055,D074,Medical Equipment Program,200,2022-07-09,Waitlisted,Pending verification,Medical Equipment,Provided essential device for post-treatment home care
+M0178,P094,D086,Goodwill Fund,5,2023-07-20,Fully Funded,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0179,P093,D190,General Donation,200,2023-09-12,Partially Funded,Pending verification,General,Donation directed toward general patient support fund
+M0180,P167,D071,Goodwill Fund,1000,2022-05-14,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0181,P011,D151,Zakat Fund,1000,2022-07-17,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0182,P237,D026,Goodwill Fund,100,2024-01-13,Partially Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0183,P137,D185,Goodwill Fund,100,2023-12-30,Fully Funded,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0184,P230,D094,Medical Equipment Program,2000,2022-03-11,Partially Funded,Urgent case prioritized,Medical Equipment,Provided essential device for post-treatment home care
+M0185,P135,D239,Zakat Fund,50,2022-10-08,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0186,P075,D012,Zakat Fund,5000,2022-07-14,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0187,P127,D176,Medical Equipment Program,200,2023-03-25,Partially Funded,Standard application,Medical Equipment,Provided essential device for post-treatment home care
+M0188,P144,D200,Goodwill Fund,50,2022-01-04,Partially Funded,Approved by committee,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0189,P152,D179,Goodwill Fund,200,2023-05-31,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0190,P078,D219,Goodwill Fund,200,2022-06-25,Partially Funded,Approved by committee,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0191,P137,D061,Goodwill Fund,2000,2022-10-12,Partially Funded,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0192,P224,D203,Goodwill Fund,5000,2022-08-04,Referred to Other Fund,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0193,P001,D167,Goodwill Fund,100,2022-03-27,Partially Funded,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0194,P185,D035,Goodwill Fund,100,2022-02-28,Partially Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0195,P211,D092,Goodwill Fund,50,2024-09-21,Referred to Other Fund,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0196,P185,D191,Named/Recognition Program,1000,2023-10-04,Waitlisted,Supporting documents reviewed,General,Donor recognition applied; patient fully supported
+M0197,P210,D114,Goodwill Fund,200,2024-04-07,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0198,P115,D060,General Donation,20,2023-05-06,Fully Funded,Documents submitted,General,Supported hospital transport and lodging costs
+M0199,P047,D118,Goodwill Fund,50,2023-05-18,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0200,P166,D073,Goodwill Fund,50,2023-02-08,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0201,P018,D037,Goodwill Fund,1000,2024-09-20,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0202,P186,D135,Goodwill Fund,5,2022-04-13,Partially Funded,Urgent case prioritized,Goodwill / Zakat,Covered essential household expenses during recovery
+M0203,P006,D029,General Donation,500,2022-02-14,Waitlisted,Approved by committee,General,Donation directed toward general patient support fund
+M0204,P198,D022,Goodwill Fund,200,2024-03-22,Waitlisted,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0205,P139,D189,General Donation,20,2022-05-23,Waitlisted,Urgent case prioritized,General,Supported hospital transport and lodging costs
+M0206,P209,D042,Goodwill Fund,50,2023-07-11,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0207,P161,D140,Goodwill Fund,20,2022-10-31,Waitlisted,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0208,P037,D001,Gaza Fund,100,2022-05-31,Fully Funded,Pending verification,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0209,P058,D236,Gaza Fund,1000,2024-04-22,Fully Funded,Documents submitted,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0210,P044,D029,Goodwill Fund,100,2022-03-20,Referred to Other Fund,Standard application,Goodwill / Zakat,Covered essential household expenses during recovery
+M0211,P031,D093,Gaza Fund,1000,2023-09-12,Waitlisted,Approved by committee,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0212,P110,D136,Goodwill Fund,100,2024-07-03,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0213,P160,D210,Goodwill Fund,50,2023-05-27,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0214,P239,D068,General Donation,10,2022-01-03,Partially Funded,Approved by committee,General,Donation directed toward general patient support fund
+M0215,P082,D038,Goodwill Fund,500,2023-05-05,Partially Funded,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0216,P148,D110,Zakat Fund,20,2022-05-11,Fully Funded,Approved by committee,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0217,P091,D082,Medical Equipment Program,2000,2023-09-09,Fully Funded,Supporting documents reviewed,Medical Equipment,Provided essential device for post-treatment home care
+M0218,P036,D206,Zakat Fund,100,2023-07-17,Waitlisted,Urgent case prioritized,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0219,P137,D138,General Donation,200,2023-03-08,Fully Funded,Standard application,General,Donation directed toward general patient support fund
+M0220,P180,D023,Goodwill Fund,5000,2022-01-18,Fully Funded,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0221,P246,D035,Gaza Fund,100,2024-05-19,Fully Funded,Approved by committee,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0222,P118,D037,Gaza Fund,2000,2023-03-08,Partially Funded,Approved by committee,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0223,P212,D058,Goodwill Fund,2000,2023-12-22,Fully Funded,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0224,P188,D007,Named/Recognition Program,500,2022-04-19,Fully Funded,Supporting documents reviewed,General,Donor recognition applied; patient fully supported
+M0225,P123,D215,Named/Recognition Program,500,2022-05-25,Fully Funded,Documents submitted,General,Donor recognition applied; patient fully supported
+M0226,P020,D004,Medical Equipment Program,200,2022-07-06,Waitlisted,Urgent case prioritized,Medical Equipment,Patient received home medical equipment for recovery
+M0227,P192,D136,Named/Recognition Program,1000,2022-12-12,Fully Funded,Urgent case prioritized,General,Donor recognition applied; patient fully supported
+M0228,P074,D029,Goodwill Fund,10,2024-02-09,Waitlisted,Approved by committee,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0229,P003,D102,Gaza Fund,1000,2023-07-22,Partially Funded,Supporting documents reviewed,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0230,P236,D147,Medical Equipment Program,500,2022-06-10,Partially Funded,Pending verification,Medical Equipment,Patient received home medical equipment for recovery
+M0231,P134,D097,Zakat Fund,50,2023-09-26,Fully Funded,Documents submitted,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0232,P101,D048,General Donation,200,2022-03-21,Referred to Other Fund,Supporting documents reviewed,General,Supported hospital transport and lodging costs
+M0233,P123,D081,Named/Recognition Program,1000,2022-02-25,Fully Funded,Pending verification,General,Named donation matched to high-need patient
+M0234,P050,D070,Goodwill Fund,200,2024-05-16,Fully Funded,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0235,P062,D073,Goodwill Fund,50,2022-01-12,Fully Funded,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0236,P142,D052,Named/Recognition Program,1000,2024-09-27,Fully Funded,Standard application,General,Donor recognition applied; patient fully supported
+M0237,P145,D203,Medical Equipment Program,200,2022-11-13,Fully Funded,Documents submitted,Medical Equipment,Provided essential device for post-treatment home care
+M0238,P193,D073,Zakat Fund,100,2023-02-05,Partially Funded,Supporting documents reviewed,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0239,P250,D034,Named/Recognition Program,1000,2024-01-30,Fully Funded,Standard application,General,Donor recognition applied; patient fully supported
+M0240,P129,D207,General Donation,500,2023-05-04,Fully Funded,Standard application,General,Donation directed toward general patient support fund
+M0241,P075,D042,Goodwill Fund,1000,2022-04-06,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0242,P227,D056,General Donation,500,2022-06-14,Partially Funded,Standard application,General,Supported hospital transport and lodging costs
+M0243,P115,D202,Goodwill Fund,200,2024-08-20,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0244,P229,D183,General Donation,50,2023-09-18,Fully Funded,Standard application,General,Donation directed toward general patient support fund
+M0245,P246,D040,Medical Equipment Program,200,2022-01-16,Referred to Other Fund,Approved by committee,Medical Equipment,Provided essential device for post-treatment home care
+M0246,P141,D223,Zakat Fund,20,2022-04-07,Waitlisted,Urgent case prioritized,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0247,P044,D240,Goodwill Fund,200,2022-12-28,Fully Funded,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0248,P046,D182,General Donation,200,2022-09-20,Fully Funded,Urgent case prioritized,General,Donation directed toward general patient support fund
+M0249,P241,D032,Zakat Fund,100,2022-10-21,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0250,P220,D159,Gaza Fund,100,2024-05-15,Fully Funded,Standard application,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0251,P096,D022,Named/Recognition Program,1000,2024-06-15,Partially Funded,Supporting documents reviewed,General,Donor recognition applied; patient fully supported
+M0252,P159,D165,Goodwill Fund,500,2023-07-29,Waitlisted,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0253,P219,D027,Goodwill Fund,100,2022-03-16,Fully Funded,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0254,P224,D119,Named/Recognition Program,1000,2023-07-02,Fully Funded,Urgent case prioritized,General,Donor recognition applied; patient fully supported
+M0255,P022,D047,General Donation,2000,2024-02-26,Waitlisted,Urgent case prioritized,General,Donation directed toward general patient support fund
+M0256,P103,D085,Goodwill Fund,200,2022-08-06,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0257,P030,D072,Medical Equipment Program,2000,2022-05-30,Partially Funded,Supporting documents reviewed,Medical Equipment,Patient received home medical equipment for recovery
+M0258,P082,D146,Goodwill Fund,100,2024-08-16,Partially Funded,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0259,P122,D055,Goodwill Fund,2000,2023-12-02,Waitlisted,Urgent case prioritized,Goodwill / Zakat,Covered essential household expenses during recovery
+M0260,P065,D163,Goodwill Fund,50,2022-03-25,Fully Funded,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0261,P224,D108,Medical Equipment Program,200,2024-04-30,Partially Funded,Documents submitted,Medical Equipment,Patient received home medical equipment for recovery
+M0262,P230,D231,Goodwill Fund,100,2022-07-23,Referred to Other Fund,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0263,P124,D122,Medical Equipment Program,2000,2023-03-24,Waitlisted,Pending verification,Medical Equipment,Provided essential device for post-treatment home care
+M0264,P211,D003,Medical Equipment Program,200,2024-01-11,Waitlisted,Supporting documents reviewed,Medical Equipment,Patient received home medical equipment for recovery
+M0265,P083,D171,Zakat Fund,500,2024-01-25,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0266,P004,D039,Gaza Fund,200,2022-11-21,Waitlisted,Documents submitted,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0267,P068,D134,General Donation,2000,2024-05-27,Referred to Other Fund,Approved by committee,General,Supported hospital transport and lodging costs
+M0268,P164,D249,Medical Equipment Program,1000,2022-07-12,Fully Funded,Urgent case prioritized,Medical Equipment,Patient received home medical equipment for recovery
+M0269,P154,D097,Goodwill Fund,50,2023-11-27,Fully Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0270,P095,D209,Goodwill Fund,100,2024-04-18,Fully Funded,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0271,P167,D117,Goodwill Fund,1000,2023-03-13,Fully Funded,Standard application,Goodwill / Zakat,Covered essential household expenses during recovery
+M0272,P030,D238,Goodwill Fund,50,2023-09-02,Fully Funded,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0273,P098,D073,Gaza Fund,200,2022-10-18,Partially Funded,Supporting documents reviewed,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0274,P023,D207,Gaza Fund,5,2024-08-12,Fully Funded,Urgent case prioritized,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0275,P128,D192,General Donation,20,2023-03-31,Waitlisted,Standard application,General,Donation directed toward general patient support fund
+M0276,P171,D075,Gaza Fund,500,2023-07-19,Fully Funded,Urgent case prioritized,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0277,P051,D220,Medical Equipment Program,2000,2024-07-24,Fully Funded,Urgent case prioritized,Medical Equipment,Provided essential device for post-treatment home care
+M0278,P233,D211,Named/Recognition Program,1000,2024-08-20,Waitlisted,Pending verification,General,Donor recognition applied; patient fully supported
+M0279,P130,D073,Goodwill Fund,100,2024-07-13,Partially Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0280,P002,D231,Gaza Fund,5,2024-03-20,Fully Funded,Pending verification,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0281,P086,D044,Zakat Fund,50,2024-09-23,Referred to Other Fund,Urgent case prioritized,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0282,P158,D165,Goodwill Fund,2000,2023-03-16,Fully Funded,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0283,P187,D045,Goodwill Fund,20,2022-08-25,Fully Funded,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0284,P130,D031,Named/Recognition Program,5000,2023-10-05,Waitlisted,Pending verification,General,Donor recognition applied; patient fully supported
+M0285,P243,D083,Goodwill Fund,200,2023-10-06,Fully Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0286,P008,D159,Named/Recognition Program,500,2023-01-27,Waitlisted,Documents submitted,General,Donor recognition applied; patient fully supported
+M0287,P117,D163,Named/Recognition Program,1000,2024-07-08,Fully Funded,Approved by committee,General,Named donation matched to high-need patient
+M0288,P050,D138,Gaza Fund,500,2023-01-23,Partially Funded,Pending verification,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0289,P071,D022,Zakat Fund,500,2023-08-17,Partially Funded,Documents submitted,Goodwill / Zakat,Eligible Zakat recipient confirmed and supported
+M0290,P118,D238,Named/Recognition Program,1000,2024-07-05,Fully Funded,Approved by committee,General,Donor recognition applied; patient fully supported
+M0291,P020,D127,Gaza Fund,50,2022-04-14,Waitlisted,Urgent case prioritized,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0292,P106,D019,Medical Equipment Program,200,2023-03-06,Partially Funded,Urgent case prioritized,Medical Equipment,Provided essential device for post-treatment home care
+M0293,P163,D233,Medical Equipment Program,200,2024-07-14,Fully Funded,Approved by committee,Medical Equipment,Patient received home medical equipment for recovery
+M0294,P031,D250,Goodwill Fund,5000,2023-09-07,Fully Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0295,P041,D134,General Donation,50,2022-01-31,Waitlisted,Standard application,General,Donation directed toward general patient support fund
+M0296,P133,D132,General Donation,100,2024-07-09,Fully Funded,Approved by committee,General,Donation directed toward general patient support fund
+M0297,P084,D036,Goodwill Fund,2000,2022-10-02,Partially Funded,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0298,P052,D245,Goodwill Fund,500,2023-04-24,Partially Funded,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0299,P112,D132,Zakat Fund,50,2022-07-22,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0300,P247,D101,Goodwill Fund,200,2022-06-19,Waitlisted,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0301,P111,D227,Medical Equipment Program,200,2022-11-23,Partially Funded,Standard application,Medical Equipment,Patient received home medical equipment for recovery
+M0302,P156,D099,Goodwill Fund,100,2023-10-10,Partially Funded,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0303,P043,D228,Goodwill Fund,200,2022-10-28,Partially Funded,Standard application,Goodwill / Zakat,Covered essential household expenses during recovery
+M0304,P102,D008,Goodwill Fund,100,2022-07-10,Waitlisted,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0305,P019,D056,Named/Recognition Program,5000,2022-05-06,Fully Funded,Documents submitted,General,Named donation matched to high-need patient
+M0306,P177,D003,General Donation,200,2022-11-26,Fully Funded,Approved by committee,General,Donation directed toward general patient support fund
+M0307,P099,D073,Named/Recognition Program,500,2022-10-12,Partially Funded,Supporting documents reviewed,General,Donor recognition applied; patient fully supported
+M0308,P147,D229,Named/Recognition Program,1000,2024-04-12,Partially Funded,Pending verification,General,Donor recognition applied; patient fully supported
+M0309,P051,D013,General Donation,5000,2023-03-08,Partially Funded,Documents submitted,General,Donation directed toward general patient support fund
+M0310,P116,D044,Named/Recognition Program,1000,2022-01-22,Partially Funded,Pending verification,General,Donor recognition applied; patient fully supported
+M0311,P165,D201,Gaza Fund,2000,2022-10-19,Referred to Other Fund,Approved by committee,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0312,P010,D230,Medical Equipment Program,500,2022-01-17,Partially Funded,Documents submitted,Medical Equipment,Provided essential device for post-treatment home care
+M0313,P025,D213,General Donation,50,2024-02-11,Partially Funded,Pending verification,General,Supported hospital transport and lodging costs
+M0314,P021,D143,General Donation,10,2022-11-02,Partially Funded,Supporting documents reviewed,General,Supported hospital transport and lodging costs
+M0315,P127,D218,Named/Recognition Program,5000,2024-08-18,Waitlisted,Standard application,General,Donor recognition applied; patient fully supported
+M0316,P008,D058,Goodwill Fund,20,2022-11-27,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0317,P058,D044,Goodwill Fund,1000,2024-04-15,Partially Funded,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0318,P240,D177,Gaza Fund,500,2022-04-24,Fully Funded,Documents submitted,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0319,P020,D068,Goodwill Fund,1000,2022-10-04,Partially Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0320,P237,D036,Named/Recognition Program,1000,2022-06-01,Fully Funded,Standard application,General,Named donation matched to high-need patient
+M0321,P164,D115,Named/Recognition Program,1000,2023-05-05,Partially Funded,Supporting documents reviewed,General,Named donation matched to high-need patient
+M0322,P250,D072,Goodwill Fund,50,2022-09-28,Partially Funded,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0323,P091,D143,Gaza Fund,500,2024-05-26,Fully Funded,Approved by committee,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0324,P020,D249,Medical Equipment Program,1000,2023-04-25,Fully Funded,Urgent case prioritized,Medical Equipment,Patient received home medical equipment for recovery
+M0325,P125,D027,Goodwill Fund,500,2023-06-11,Waitlisted,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0326,P182,D117,Named/Recognition Program,500,2022-05-14,Waitlisted,Approved by committee,General,Named donation matched to high-need patient
+M0327,P099,D250,Medical Equipment Program,200,2023-02-14,Partially Funded,Approved by committee,Medical Equipment,Patient received home medical equipment for recovery
+M0328,P072,D109,Goodwill Fund,1000,2023-10-26,Fully Funded,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0329,P119,D225,Goodwill Fund,5,2023-04-17,Fully Funded,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0330,P008,D122,Named/Recognition Program,1000,2024-08-07,Fully Funded,Standard application,General,Donor recognition applied; patient fully supported
+M0331,P091,D111,Goodwill Fund,200,2022-12-08,Fully Funded,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0332,P070,D095,Goodwill Fund,500,2023-03-09,Partially Funded,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0333,P049,D104,Goodwill Fund,200,2023-06-16,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0334,P175,D013,Named/Recognition Program,1000,2022-02-24,Referred to Other Fund,Documents submitted,General,Named donation matched to high-need patient
+M0335,P062,D017,Medical Equipment Program,1000,2023-12-18,Fully Funded,Supporting documents reviewed,Medical Equipment,Provided essential device for post-treatment home care
+M0336,P101,D101,Goodwill Fund,1000,2022-10-02,Partially Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0337,P044,D202,Goodwill Fund,500,2022-10-22,Partially Funded,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0338,P025,D048,Medical Equipment Program,500,2022-11-09,Partially Funded,Supporting documents reviewed,Medical Equipment,Patient received home medical equipment for recovery
+M0339,P044,D081,Named/Recognition Program,1000,2023-04-12,Fully Funded,Approved by committee,General,Donor recognition applied; patient fully supported
+M0340,P171,D122,Goodwill Fund,5000,2024-06-21,Fully Funded,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0341,P174,D195,Gaza Fund,2000,2023-08-21,Partially Funded,Documents submitted,Gaza Support,Gaza Fund allocation for displaced cancer patient
+M0342,P224,D064,Medical Equipment Program,200,2023-11-28,Fully Funded,Pending verification,Medical Equipment,Patient received home medical equipment for recovery
+M0343,P135,D129,Goodwill Fund,20,2022-11-08,Fully Funded,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0344,P116,D126,General Donation,50,2023-05-14,Referred to Other Fund,Pending verification,General,Supported hospital transport and lodging costs
+M0345,P118,D004,General Donation,100,2023-06-15,Fully Funded,Supporting documents reviewed,General,Supported hospital transport and lodging costs
+M0346,P029,D070,Named/Recognition Program,500,2023-02-25,Partially Funded,Approved by committee,General,Donor recognition applied; patient fully supported
+M0347,P092,D128,Goodwill Fund,500,2023-03-18,Partially Funded,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0348,P191,D023,Goodwill Fund,500,2024-09-15,Referred to Other Fund,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0349,P246,D225,Medical Equipment Program,1000,2024-06-28,Fully Funded,Pending verification,Medical Equipment,Provided essential device for post-treatment home care
+M0350,P151,D107,Zakat Fund,50,2023-08-17,Fully Funded,Standard application,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0351,P214,D157,Goodwill Fund,200,2024-03-22,Waitlisted,Pending verification,Goodwill / Zakat,Covered essential household expenses during recovery
+M0352,P029,D249,Goodwill Fund,20,2023-11-29,Waitlisted,Approved by committee,Goodwill / Zakat,Covered essential household expenses during recovery
+M0353,P160,D143,Named/Recognition Program,1000,2024-03-29,Fully Funded,Pending verification,General,Donor recognition applied; patient fully supported
+M0354,P117,D011,Goodwill Fund,20,2023-05-16,Waitlisted,Pending verification,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0355,P111,D091,Named/Recognition Program,1000,2022-12-25,Fully Funded,Pending verification,General,Donor recognition applied; patient fully supported
+M0356,P245,D023,General Donation,500,2023-03-19,Fully Funded,Standard application,General,Donation directed toward general patient support fund
+M0357,P075,D057,Goodwill Fund,50,2023-11-26,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Covered essential household expenses during recovery
+M0358,P109,D103,Zakat Fund,50,2022-11-06,Fully Funded,Standard application,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0359,P045,D145,Goodwill Fund,500,2022-05-23,Waitlisted,Supporting documents reviewed,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0360,P065,D035,Goodwill Fund,100,2022-11-01,Fully Funded,Standard application,Goodwill / Zakat,Covered essential household expenses during recovery
+M0361,P140,D047,Goodwill Fund,200,2022-05-22,Waitlisted,Standard application,Goodwill / Zakat,Covered essential household expenses during recovery
+M0362,P178,D081,Medical Equipment Program,500,2022-12-29,Partially Funded,Urgent case prioritized,Medical Equipment,Provided essential device for post-treatment home care
+M0363,P108,D247,Goodwill Fund,200,2024-09-07,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0364,P194,D036,Named/Recognition Program,1000,2023-06-09,Fully Funded,Pending verification,General,Donor recognition applied; patient fully supported
+M0365,P159,D140,Gaza Fund,10,2024-05-15,Waitlisted,Urgent case prioritized,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0366,P104,D172,Goodwill Fund,1000,2023-04-17,Waitlisted,Documents submitted,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0367,P015,D070,General Donation,100,2022-04-10,Partially Funded,Pending verification,General,Supported hospital transport and lodging costs
+M0368,P177,D085,Gaza Fund,200,2023-06-08,Fully Funded,Supporting documents reviewed,Gaza Support,Displaced patient from Gaza supported through humanitarian fund
+M0369,P180,D053,Medical Equipment Program,2000,2022-05-20,Partially Funded,Approved by committee,Medical Equipment,Patient received home medical equipment for recovery
+M0370,P078,D161,Goodwill Fund,5,2023-05-12,Referred to Other Fund,Standard application,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0371,P030,D018,Goodwill Fund,20,2022-04-10,Partially Funded,Approved by committee,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0372,P027,D122,Goodwill Fund,100,2024-08-06,Partially Funded,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
+M0373,P104,D124,Zakat Fund,1000,2023-07-14,Waitlisted,Pending verification,Goodwill / Zakat,Zakat funds used for patient daily living costs
+M0374,P220,D169,Named/Recognition Program,2000,2022-07-09,Fully Funded,Approved by committee,General,Donor recognition applied; patient fully supported
+M0375,P044,D131,General Donation,200,2022-10-24,Partially Funded,Pending verification,General,Donation directed toward general patient support fund
+M0376,P246,D151,Medical Equipment Program,500,2023-12-16,Partially Funded,Documents submitted,Medical Equipment,Provided essential device for post-treatment home care
+M0377,P107,D209,Goodwill Fund,200,2023-08-01,Fully Funded,Urgent case prioritized,Goodwill / Zakat,Helped patient afford basic living costs during treatment
+M0378,P149,D078,Goodwill Fund,500,2023-04-01,Partially Funded,Documents submitted,Goodwill / Zakat,Covered essential household expenses during recovery
