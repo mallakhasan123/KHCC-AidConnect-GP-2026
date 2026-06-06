@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KHCC AidConnect</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #1B3A5C;
+  --navy-light: #2A5280;
+  --teal: #0E7C6B;
+  --teal-light: #12A68F;
+  --teal-pale: #E0F5F2;
+  --gold: #C8922A;
+  --gold-pale: #FDF3E3;
+  --rose: #C4635C;
+  --rose-pale: #FAEDEC;
+  --cream: #F8F5F0;
+  --sand: #EDE8E0;
+  --border: #D6D0C8;
+  --ink: #1A1A1A;
+  --ink-mid: #4A4855;
+  --ink-light: #8A8799;
+  --white: #FFFFFF;
+  --shadow-sm: 0 2px 12px rgba(27,58,92,0.08);
+  --shadow-md: 0 6px 28px rgba(27,58,92,0.12);
+  --shadow-lg: 0 16px 56px rgba(27,58,92,0.16);
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #F0EBE3;
+  min-height: 100vh;
+  color: var(--ink);
+}
+
+/* ── PHONE SHELL ── */
+.phone-shell {
+  width: 390px;
+  min-height: 844px;
+  background: var(--cream);
+  border-radius: 44px;
+  box-shadow: 0 0 0 10px #1A1A1A, 0 0 0 12px #3A3A3A, var(--shadow-lg);
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+.notch {
+  width: 120px; height: 32px;
+  background: #1A1A1A;
+  border-radius: 0 0 20px 20px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+.status-bar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 8px 24px 0;
+  font-size: 12px; font-weight: 600;
+  color: var(--ink-mid);
+  background: var(--cream);
+}
+.screen { display: none; flex-direction: column; min-height: 780px; }
+.screen.active { display: flex; }
+
+/* ── APP HEADER ── */
+.app-header {
+  background: var(--navy);
+  padding: 16px 20px 20px;
+  color: white;
+}
+.app-header-logo {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 4px;
+}
+.logo-mark {
+  width: 36px; height: 36px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px;
+}
+.logo-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px; font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.logo-sub {
+  font-size: 10px; opacity: 0.65;
+  letter-spacing: 0.08em; text-transform: uppercase;
+}
+.header-greeting {
+  font-size: 13px; opacity: 0.75; margin-top: 8px;
+}
+
+/* ── BOTTOM NAV ── */
+.bottom-nav {
+  display: flex;
+  background: var(--white);
+  border-top: 1px solid var(--border);
+  padding: 10px 0 20px;
+  position: sticky; bottom: 0;
+}
+.nav-item {
+  flex: 1; display: flex; flex-direction: column;
+  align-items: center; gap: 3px;
+  cursor: pointer; padding: 4px 0;
+  font-size: 10px; color: var(--ink-light);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-item.active { color: var(--navy); }
+.nav-icon {
+  width: 24px; height: 24px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px;
+}
+.nav-dot {
+  width: 4px; height: 4px; border-radius: 50%;
+  background: var(--navy);
+  margin: 0 auto;
+}
+
+/* ── SCROLL CONTENT ── */
+.scroll-content {
+  flex: 1; overflow-y: auto; padding-bottom: 8px;
+}
+.scroll-content::-webkit-scrollbar { display: none; }
+
+/* ── SECTION HEADER ── */
+.section-label {
+  font-size: 10px; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ink-light);
+  padding: 16px 20px 8px;
+}
+
+/* ── KPI STRIP ── */
+.kpi-strip {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 10px; padding: 0 20px;
+}
+.kpi-card {
+  background: var(--white);
+  border-radius: var(--r-md);
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+}
+.kpi-value {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px; font-weight: 700;
+  line-height: 1; margin-bottom: 4px;
+}
+.kpi-label {
+  font-size: 11px; color: var(--ink-light);
+  font-weight: 500; letter-spacing: 0.04em;
+}
+.kpi-card.wide { grid-column: 1/-1; }
+
+/* ── PROGRAMME CARDS (home) ── */
+.prog-scroll {
+  display: flex; gap: 12px;
+  padding: 0 20px; overflow-x: auto;
+}
+.prog-scroll::-webkit-scrollbar { display: none; }
+.prog-card {
+  min-width: 130px;
+  background: var(--white);
+  border-radius: var(--r-md);
+  border: 1px solid var(--border);
+  padding: 14px 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+.prog-card:hover { border-color: var(--teal); transform: translateY(-2px); }
+.prog-icon {
+  width: 40px; height: 40px;
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px; margin-bottom: 10px;
+}
+.prog-name { font-size: 12px; font-weight: 600; color: var(--ink); margin-bottom: 2px; }
+.prog-count { font-size: 11px; color: var(--ink-light); }
+
+/* ── ACTIVITY FEED ── */
+.activity-item {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--sand);
+}
+.activity-avatar {
+  width: 36px; height: 36px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 700; flex-shrink: 0;
+  color: white;
+}
+.activity-name { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
+.activity-detail { font-size: 12px; color: var(--ink-light); }
+.activity-amount {
+  margin-left: auto; font-size: 13px; font-weight: 700;
+  color: var(--teal); flex-shrink: 0;
+}
+
+/* ── BUTTONS ── */
+.btn-primary {
+  background: var(--navy);
+  color: white; border: none;
+  border-radius: var(--r-sm);
+  padding: 14px 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px; font-weight: 600;
+  cursor: pointer; width: 100%;
+  transition: all 0.2s;
+  letter-spacing: 0.01em;
+}
+.btn-primary:hover { background: var(--navy-light); }
+.btn-teal {
+  background: var(--teal);
+  color: white; border: none;
+  border-radius: var(--r-sm);
+  padding: 14px 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px; font-weight: 600;
+  cursor: pointer; width: 100%;
+  transition: all 0.2s;
+}
+.btn-outline {
+  background: transparent;
+  color: var(--navy); border: 1.5px solid var(--navy);
+  border-radius: var(--r-sm);
+  padding: 12px 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px; font-weight: 600;
+  cursor: pointer; width: 100%;
+}
+.btn-ghost {
+  background: var(--sand);
+  color: var(--ink-mid); border: none;
+  border-radius: var(--r-sm);
+  padding: 10px 16px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px; font-weight: 500;
+  cursor: pointer;
+}
+
+/* ── FORM ── */
+.form-group { padding: 0 20px; margin-bottom: 16px; }
+.form-label {
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink-light); margin-bottom: 6px; display: block;
+}
+.form-input {
+  width: 100%; background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--r-sm);
+  padding: 12px 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px; color: var(--ink);
+  outline: none; transition: border-color 0.2s;
+}
+.form-input:focus { border-color: var(--navy); }
+
+/* ── AMOUNT CHIPS ── */
+.amount-chips {
+  display: flex; gap: 8px; flex-wrap: wrap;
+}
+.chip {
+  padding: 8px 16px; border-radius: 20px;
+  border: 1.5px solid var(--border);
+  font-size: 13px; font-weight: 600;
+  cursor: pointer; background: var(--white);
+  transition: all 0.2s;
+}
+.chip.selected {
+  background: var(--navy); border-color: var(--navy); color: white;
+}
+
+/* ── PROGRAMME SELECTOR (donate flow) ── */
+.prog-select-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 10px; padding: 0 20px;
+}
+.prog-select-card {
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 14px 12px;
+  cursor: pointer; transition: all 0.2s;
+  text-align: center;
+}
+.prog-select-card.selected {
+  border-color: var(--teal);
+  background: var(--teal-pale);
+}
+.prog-select-card.selected .prog-select-name { color: var(--teal); }
+.prog-select-icon { font-size: 28px; margin-bottom: 8px; }
+.prog-select-name {
+  font-size: 11px; font-weight: 600;
+  color: var(--ink); line-height: 1.3;
+}
+.prog-select-fund {
+  font-size: 10px; color: var(--ink-light);
+  margin-top: 3px;
+}
+
+/* ── ZAKAT TOGGLE ── */
+.zakat-row {
+  margin: 0 20px 16px;
+  background: var(--gold-pale);
+  border: 1px solid #EDCD8F;
+  border-radius: var(--r-sm);
+  padding: 12px 14px;
+  display: flex; align-items: center; gap: 12px;
+}
+.zakat-text { flex: 1; }
+.zakat-label { font-size: 13px; font-weight: 600; color: var(--gold); }
+.zakat-sub { font-size: 11px; color: #A07020; margin-top: 2px; }
+.toggle {
+  width: 44px; height: 26px;
+  background: var(--gold);
+  border-radius: 13px;
+  position: relative; cursor: pointer; flex-shrink: 0;
+  transition: background 0.2s;
+}
+.toggle-thumb {
+  width: 20px; height: 20px;
+  background: white; border-radius: 50%;
+  position: absolute; top: 3px; right: 3px;
+  transition: right 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+/* ── PROGRESS BAR ── */
+.progress-track {
+  height: 4px; background: var(--sand);
+  border-radius: 4px; overflow: hidden;
+  margin: 0 20px 16px;
+}
+.progress-fill {
+  height: 100%; background: var(--teal);
+  border-radius: 4px; transition: width 0.4s;
+}
+.progress-steps {
+  display: flex; justify-content: space-between;
+  padding: 0 20px; margin-bottom: 20px;
+}
+.progress-step {
+  font-size: 11px; color: var(--ink-light); font-weight: 500;
+}
+.progress-step.active { color: var(--teal); font-weight: 600; }
+
+/* ── KNN LOADING ── */
+.knn-loading {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  margin: 0 20px;
+  overflow: hidden;
+}
+.knn-loading-header {
+  background: var(--navy);
+  padding: 14px 16px;
+  color: white;
+  font-size: 13px; font-weight: 600;
+}
+.knn-step {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--sand);
+  font-size: 12px; color: var(--ink-mid);
+}
+.knn-step:last-child { border-bottom: none; }
+.knn-step-dot {
+  width: 20px; height: 20px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 700; flex-shrink: 0;
+}
+.knn-step-dot.done { background: var(--teal); color: white; }
+.knn-step-dot.active {
+  border: 2px solid var(--teal); color: var(--teal);
+  animation: pulse 1s ease-in-out infinite;
+}
+.knn-step-dot.waiting { border: 2px solid var(--border); color: var(--ink-light); }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+/* ── PATIENT CARDS ── */
+.patient-card {
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 14px 16px;
+  margin: 0 20px 10px;
+  cursor: pointer; transition: all 0.2s;
+  position: relative;
+}
+.patient-card:hover { border-color: var(--teal); box-shadow: var(--shadow-sm); }
+.patient-card.best { border-color: var(--teal); }
+.best-badge {
+  position: absolute; top: 12px; right: 12px;
+  background: var(--teal); color: white;
+  font-size: 9px; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; padding: 3px 8px; border-radius: 20px;
+}
+.patient-name { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
+.patient-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.tag {
+  font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: 20px;
+}
+.tag-stage4 { background: var(--rose-pale); color: var(--rose); }
+.tag-stage3 { background: var(--gold-pale); color: var(--gold); }
+.tag-stage2 { background: #EEF0FB; color: #5A60C0; }
+.tag-uninsured { background: #FFF0F0; color: #B04040; }
+.tag-zakat { background: var(--gold-pale); color: var(--gold); }
+.tag-gov { background: var(--teal-pale); color: var(--teal); }
+.sim-bar { position: relative; margin-top: 4px; }
+.sim-labels {
+  display: flex; justify-content: space-between;
+  font-size: 11px; color: var(--ink-light); margin-bottom: 4px;
+}
+.sim-labels span:last-child { font-weight: 700; color: var(--teal); }
+.sim-track {
+  height: 6px; background: var(--sand); border-radius: 6px; overflow: hidden;
+}
+.sim-fill {
+  height: 100%; background: linear-gradient(90deg, var(--teal-light), var(--teal));
+  border-radius: 6px;
+}
+.patient-income {
+  font-size: 11px; color: var(--ink-light); margin-top: 6px;
+}
+
+/* ── PATIENT DETAIL ── */
+.detail-header {
+  background: var(--navy); padding: 20px;
+  color: white; position: relative;
+}
+.back-btn {
+  position: absolute; top: 16px; left: 16px;
+  width: 32px; height: 32px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 50%; border: none; color: white;
+  font-size: 18px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+}
+.detail-patient-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px; font-weight: 700;
+  margin-bottom: 4px; text-align: center;
+}
+.detail-id { font-size: 11px; opacity: 0.65; text-align: center; letter-spacing: 0.06em; font-family: 'DM Mono', monospace; }
+.need-score-ring {
+  width: 80px; height: 80px;
+  border-radius: 50%;
+  border: 4px solid rgba(255,255,255,0.3);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  margin: 12px auto;
+}
+.need-score-val {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px; font-weight: 700; line-height: 1;
+}
+.need-score-label { font-size: 9px; opacity: 0.65; letter-spacing: 0.06em; text-transform: uppercase; }
+
+.detail-row {
+  display: flex; justify-content: space-between;
+  align-items: center; padding: 11px 20px;
+  border-bottom: 1px solid var(--sand);
+  font-size: 13px;
+}
+.detail-row-key { color: var(--ink-light); }
+.detail-row-val { font-weight: 600; color: var(--ink); }
+
+/* ── RECOMMENDATION ROWS ── */
+.rec-header {
+  background: var(--teal); color: white;
+  padding: 12px 20px;
+  font-size: 12px; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+.rec-row {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 20px; border-bottom: 1px solid var(--sand);
+  cursor: pointer;
+}
+.rec-rank {
+  width: 26px; height: 26px; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 700; flex-shrink: 0;
+}
+.rank-1 { background: #FFF8D6; color: #7A5A00; }
+.rank-2 { background: #E8F4FF; color: #1A5A8A; }
+.rank-3 { background: #EEF0FB; color: #4A50A8; }
+.rank-4 { background: #E8F8EE; color: #1A7A4A; }
+.rank-5 { background: var(--rose-pale); color: var(--rose); }
+.rec-info { flex: 1; }
+.rec-prog-name { font-size: 13px; font-weight: 600; }
+.rec-prog-rule { font-size: 10px; color: var(--ink-light); margin-top: 2px; font-family: 'DM Mono', monospace; }
+.rec-conf { font-size: 15px; font-weight: 700; color: var(--teal); }
+
+/* ── CONFIRMATION ── */
+.confirm-card {
+  margin: 0 20px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+}
+.confirm-card-header {
+  background: var(--navy); padding: 16px 20px;
+  color: white;
+}
+.confirm-card-title { font-size: 11px; opacity: 0.65; letter-spacing: 0.1em; text-transform: uppercase; }
+.confirm-card-name { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; margin-top: 4px; }
+.confirm-row {
+  display: flex; justify-content: space-between;
+  padding: 11px 20px; border-bottom: 1px solid var(--sand);
+  font-size: 13px;
+}
+.confirm-row-key { color: var(--ink-light); }
+.confirm-row-val { font-weight: 600; }
+.impact-box {
+  margin: 16px 20px;
+  background: var(--teal-pale);
+  border: 1px solid #A8DED6;
+  border-radius: var(--r-sm);
+  padding: 14px 16px;
+}
+.impact-box-title {
+  font-size: 11px; font-weight: 700; color: var(--teal);
+  letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px;
+}
+.impact-box-text { font-size: 13px; color: #0A6055; line-height: 1.6; }
+.zakat-badge {
+  margin: 0 20px 16px;
+  background: var(--gold-pale);
+  border: 1px solid #EDCD8F;
+  border-radius: var(--r-sm);
+  padding: 10px 14px;
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12px; font-weight: 600; color: var(--gold);
+}
+
+/* ── SUCCESS ── */
+.success-screen {
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  padding: 40px 30px; text-align: center; flex: 1;
+}
+.success-circle {
+  width: 100px; height: 100px; border-radius: 50%;
+  background: var(--teal); color: white;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 48px; margin-bottom: 24px;
+  box-shadow: 0 0 0 16px rgba(14,124,107,0.12);
+}
+.success-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px; font-weight: 700;
+  color: var(--navy); margin-bottom: 8px;
+}
+.success-sub { font-size: 14px; color: var(--ink-light); margin-bottom: 24px; line-height: 1.6; }
+.tx-ref {
+  background: var(--sand); border-radius: var(--r-sm);
+  padding: 12px 20px; font-family: 'DM Mono', monospace;
+  font-size: 13px; color: var(--ink-mid); margin-bottom: 24px;
+  width: 100%;
+}
+.tx-ref-label { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-light); margin-bottom: 4px; }
+
+/* ── DASHBOARD SCREEN ── */
+.dash-header {
+  background: var(--navy); padding: 16px 20px;
+  color: white;
+}
+.dash-title { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; }
+.dash-sub { font-size: 12px; opacity: 0.65; margin-top: 2px; }
+.chart-bar-row {
+  display: flex; align-items: center; gap: 8px;
+  padding: 6px 0; font-size: 12px;
+}
+.chart-bar-label { width: 120px; color: var(--ink-mid); flex-shrink: 0; font-size: 11px; }
+.chart-bar-track { flex: 1; height: 10px; background: var(--sand); border-radius: 5px; overflow: hidden; }
+.chart-bar-fill { height: 100%; border-radius: 5px; background: var(--teal); }
+.chart-bar-val { width: 28px; text-align: right; color: var(--ink-light); font-size: 11px; font-weight: 600; }
+
+/* ── BROWSE / PATIENTS ── */
+.search-bar {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--white); border: 1.5px solid var(--border);
+  border-radius: 20px; padding: 10px 14px;
+  margin: 0 20px 12px;
+}
+.search-bar input {
+  border: none; outline: none; flex: 1;
+  font-family: 'DM Sans', sans-serif; font-size: 14px;
+  background: transparent; color: var(--ink);
+}
+.filter-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 6px 12px; border-radius: 20px;
+  border: 1.5px solid var(--border);
+  font-size: 11px; font-weight: 600; cursor: pointer;
+  background: var(--white); transition: all 0.2s;
+  white-space: nowrap;
+}
+.filter-chip.active { background: var(--navy); border-color: var(--navy); color: white; }
+.filter-row {
+  display: flex; gap: 8px; padding: 0 20px 12px; overflow-x: auto;
+}
+.filter-row::-webkit-scrollbar { display: none; }
+
+/* ── PROFILE SCREEN ── */
+.profile-header {
+  background: var(--navy); padding: 24px 20px;
+  color: white; text-align: center;
+}
+.profile-avatar {
+  width: 80px; height: 80px; border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px; font-weight: 700;
+  margin: 0 auto 12px; color: white;
+}
+.profile-name { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; }
+.profile-type { font-size: 12px; opacity: 0.65; margin-top: 4px; }
+.pref-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 14px 20px; border-bottom: 1px solid var(--sand);
+}
+.pref-left { flex: 1; }
+.pref-name { font-size: 14px; font-weight: 500; }
+.pref-sub { font-size: 12px; color: var(--ink-light); margin-top: 2px; }
+.pref-toggle {
+  width: 44px; height: 26px; border-radius: 13px;
+  position: relative; cursor: pointer;
+  transition: background 0.2s; flex-shrink: 0;
+}
+.pref-toggle.on { background: var(--teal); }
+.pref-toggle.off { background: var(--border); }
+.pref-toggle-thumb {
+  width: 20px; height: 20px; border-radius: 50%;
+  background: white; position: absolute; top: 3px;
+  transition: left 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+.pref-toggle.on .pref-toggle-thumb { left: 21px; }
+.pref-toggle.off .pref-toggle-thumb { left: 3px; }
+
+/* ── PAGE WRAPPER ── */
+.page {
+  display: none;
+  flex-direction: column;
+  width: 100%; min-height: 100vh;
+}
+.page.active { display: flex; }
+
+/* ── DESKTOP LAYOUT ── */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 24px;
+  min-height: 100vh;
+}
+.app-title-row {
+  text-align: center;
+}
+.app-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px; font-weight: 700; color: var(--navy);
+  margin-bottom: 6px;
+}
+.app-title-sub { font-size: 15px; color: var(--ink-light); }
+.screen-nav {
+  display: flex; gap: 8px; flex-wrap: wrap; justify-content: center;
+}
+.screen-nav-btn {
+  padding: 8px 16px; border-radius: 20px;
+  border: 1.5px solid var(--border);
+  background: var(--white); font-family: 'DM Sans', sans-serif;
+  font-size: 12px; font-weight: 600; cursor: pointer;
+  transition: all 0.2s; color: var(--ink-mid);
+}
+.screen-nav-btn.active {
+  background: var(--navy); border-color: var(--navy); color: white;
+}
+.screen-nav-btn:hover:not(.active) { border-color: var(--navy); color: var(--navy); }
+
+.divider { height: 1px; background: var(--sand); margin: 4px 20px; }
+</style>
+</head>
+<body>
+
+<div class="app-wrapper">
+
+  <div class="app-title-row">
+    <div class="app-title">KHCC AidConnect</div>
+    <div class="app-title-sub">Navigate between screens to take screenshots for your report</div>
+  </div>
+
+  <!-- Screen navigation -->
+  <div class="screen-nav">
+    <button class="screen-nav-btn active" onclick="showScreen('home')">🏠 Home</button>
+    <button class="screen-nav-btn" onclick="showScreen('donate1')">💳 Donate — Step 1</button>
+    <button class="screen-nav-btn" onclick="showScreen('donate2')">🎯 Donate — Step 2 (Programmes)</button>
+    <button class="screen-nav-btn" onclick="showScreen('donate3')">🤖 Donate — Step 3 (KNN)</button>
+    <button class="screen-nav-btn" onclick="showScreen('patient')">👤 Patient Detail</button>
+    <button class="screen-nav-btn" onclick="showScreen('confirm')">✅ Confirmation</button>
+    <button class="screen-nav-btn" onclick="showScreen('success')">🎉 Success</button>
+    <button class="screen-nav-btn" onclick="showScreen('dashboard')">📊 Dashboard</button>
+    <button class="screen-nav-btn" onclick="showScreen('browse')">🔍 Browse Patients</button>
+    <button class="screen-nav-btn" onclick="showScreen('profile')">⚙️ My Preferences</button>
+  </div>
+
+  <!-- PHONE -->
+  <div class="phone-shell">
+    <div class="notch"></div>
+    <div class="status-bar">
+      <span>9:41</span>
+      <span>⚡ 84%</span>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         SCREEN 1: HOME
+    ══════════════════════════════════════ -->
+    <div class="screen active" id="screen-home">
+      <div class="app-header">
+        <div class="app-header-logo">
+          <div class="logo-mark">🏥</div>
+          <div>
+            <div class="logo-name">KHCC AidConnect</div>
+            <div class="logo-sub">Cancer Financial Aid Platform</div>
+          </div>
+        </div>
+        <div class="header-greeting">Ahlan, Ahmad Al-Khalidi 👋</div>
+      </div>
+
+      <div class="scroll-content">
+        <div class="section-label">Live Overview</div>
+        <div class="kpi-strip">
+          <div class="kpi-card">
+            <div class="kpi-value" style="color:var(--rose)">111</div>
+            <div class="kpi-label">Active Patients</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-value" style="color:var(--navy)">62</div>
+            <div class="kpi-label">Late-Stage (III–IV)</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-value" style="color:var(--gold)">301,935 JD</div>
+            <div class="kpi-label">Total Aid Distributed</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-value" style="color:var(--teal)">100%</div>
+            <div class="kpi-label">Programme Coverage</div>
+          </div>
+        </div>
+
+        <div class="section-label" style="margin-top:16px">Aid Programmes</div>
+        <div class="prog-scroll">
+          <div class="prog-card">
+            <div class="prog-icon" style="background:#FDF3E3">💰</div>
+            <div class="prog-name">Zakat Fund</div>
+            <div class="prog-count">70 patients eligible</div>
+          </div>
+          <div class="prog-card">
+            <div class="prog-icon" style="background:#E0F5F2">💚</div>
+            <div class="prog-name">Goodwill Fund</div>
+            <div class="prog-count">25 recommended</div>
+          </div>
+          <div class="prog-card">
+            <div class="prog-icon" style="background:#FAEDEC">🏥</div>
+            <div class="prog-name">Medical Equipment</div>
+            <div class="prog-count">7 patients need</div>
+          </div>
+          <div class="prog-card">
+            <div class="prog-icon" style="background:#EEF0FB">🚌</div>
+            <div class="prog-name">Transportation</div>
+            <div class="prog-count">7 patients need</div>
+          </div>
+          <div class="prog-card">
+            <div class="prog-icon" style="background:#E0F5F2">💬</div>
+            <div class="prog-name">Psychosocial</div>
+            <div class="prog-count">2 patients need</div>
+          </div>
+        </div>
+
+        <div style="padding: 0 20px; margin-top: 16px;">
+          <button class="btn-primary" onclick="showScreen('donate1')">Donate & Match a Patient</button>
+        </div>
+
+        <div class="section-label" style="margin-top:16px">Recent Matches</div>
+        <div class="activity-item">
+          <div class="activity-avatar" style="background:var(--navy)">HK</div>
+          <div>
+            <div class="activity-name">Hikma Pharmaceuticals</div>
+            <div class="activity-detail">Matched to Lina Khaled · Zakat Fund</div>
+          </div>
+          <div class="activity-amount">100 JD</div>
+        </div>
+        <div class="activity-item">
+          <div class="activity-avatar" style="background:var(--teal)">SS</div>
+          <div>
+            <div class="activity-name">Samir Smadi</div>
+            <div class="activity-detail">Matched to Omar Nasser · Medical Equipment</div>
+          </div>
+          <div class="activity-amount">400 JD</div>
+        </div>
+        <div class="activity-item">
+          <div class="activity-avatar" style="background:var(--gold)">RN</div>
+          <div>
+            <div class="activity-name">Rana Nabulsi</div>
+            <div class="activity-detail">Matched to Fatima Al-Sayed · Goodwill Fund</div>
+          </div>
+          <div class="activity-amount">250 JD</div>
+        </div>
+        <div style="height:16px"></div>
+      </div>
+
+      <div class="bottom-nav">
+        <div class="nav-item active" onclick="showScreen('home')">
+          <div class="nav-icon">🏠</div>
+          <span>Home</span>
+          <div class="nav-dot"></div>
+        </div>
+        <div class="nav-item" onclick="showScreen('browse')">
+          <div class="nav-icon">🔍</div>
+          <span>Patients</span>
+        </div>
+        <div class="nav-item" onclick="showScreen('dashboard')">
+          <div class="nav-icon">📊</div>
+          <span>Dashboard</span>
+        </div>
+        <div class="nav-item" onclick="showScreen('profile')">
+          <div class="nav-icon">⚙️</div>
+          <span>Profile</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         SCREEN 2: DONATE STEP 1 — Donor Info
+    ══════════════════════════════════════ -->
+    <div class="screen" id="screen-donate1">
+      <div class="app-header">
+        <div style="font-size:13px;opacity:0.75;margin-bottom:6px;cursor:pointer" onclick="showScreen('home')">← Back</div>
+        <div style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700">New Donation</div>
+        <div style="font-size:12px;opacity:0.65;margin-top:2px">Step 1 of 4 — Your Details</div>
+      </div>
+      <div class="progress-track"><div class="progress-fill" style="width:25%"></div></div>
+      <div class="scroll-content">
+        <div class="form-group">
+          <label class="form-label">Your Name</label>
+          <input class="form-input" type="text" value="Ahmad Al-Khalidi" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Donor Type</label>
+          <select class="form-input">
+            <option selected>Individual</option>
+            <option>Corporate</option>
+            <option>NGO</option>
+            <option>Anonymous</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Donation Amount (JD)</label>
+          <div class="amount-chips" style="margin-bottom:10px">
+            <div class="chip">50</div>
+            <div class="chip">100</div>
+            <div class="chip selected">500</div>
+            <div class="chip">1,000</div>
+            <div class="chip">Custom</div>
+          </div>
+          <input class="form-input" type="text" value="500 JD" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Preferred Stage Focus</label>
+          <select class="form-input">
+            <option>Any Stage</option>
+            <option selected>Late Stage (III & IV)</option>
+            <option>Early Stage (I & II)</option>
+          </select>
+        </div>
+        <div class="zakat-row">
+          <div class="zakat-text">
+            <div class="zakat-label">🕌 Zakat Donation</div>
+            <div class="zakat-sub">Restrict to Zakat-eligible patients only</div>
+          </div>
+          <div class="toggle"><div class="toggle-thumb"></div></div>
+        </div>
+        <div style="padding: 0 20px;">
+          <button class="btn-primary" onclick="showScreen('donate2')">Continue to Programme Selection →</button>
+        </div>
+        <div style="height:20px"></div>
+      </div>
+      <div class="bottom-nav">
+        <div class="nav-item" onclick="showScreen('home')"><div class="nav-icon">🏠</div><span>Home</span></div>
+        <div class="nav-item" onclick="showScreen('browse')"><div class="nav-icon">🔍</div><span>Patients</span></div>
+        <div class="nav-item" onclick="showScreen('dashboard')"><div class="nav-icon">📊</div><span>Dashboard</span></div>
+        <div class="nav-item" onclick="showScreen('profile')"><div class="nav-icon">⚙️</div><span>Profile</span></div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         SCREEN 3: DONATE STEP 2 — Programmes
+    ══════════════════════════════════════ -->
+    <div class="screen" id="screen-donate2">
+      <div class="app-header">
+        <div style="font-size:13px;opacity:0.75;margin-bottom:6px;cursor:pointer" onclick="showScreen('donate1')">← Back</div>
+        <div style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700">Select Programme</div>
+        <div style="font-size:12px;opacity:0.65;margin-top:2px">Step 2 of 4 — Where to Give</div>
+      </div>
+      <div class="progress-track"><div class="progress-fill" style="width:50%"></div></div>
+      <div class="scroll-content">
+        <div class="section-label">Choose a programme or let the AI decide</div>
+        <div class="prog-select-grid">
+          <div class="prog-select-card selected" onclick="selectProg(this)">
+            <div class="prog-select-icon">🤖</div>
+            <div class="prog-select-name">Let KNN Decide</div>
+            <div class="prog-select-fund">AI-matched</div>
+          </div>
+          <div class="prog-select-card" onclick="selectProg(this)">
+            <div class="prog-select-icon">🕌</div>
+            <div class="prog-select-name">Zakat Fund</div>
+            <div class="prog-select-fund">Zakat-eligible only</div>
+          </div>
+          <div class="prog-select-card" onclick="selectProg(this)">
+            <div class="prog-select-icon">💚</div>
+            <div class="prog-select-name">Goodwill Fund</div>
+            <div class="prog-select-fund">Income &lt; 500 JD</div>
+          </div>
+          <div class="prog-select-card" onclick="selectProg(this)">
+            <div class="prog-select-icon">🏥</div>
+            <div class="prog-select-name">Medical Equipment</div>
+            <div class="prog-select-fund">Stage III–IV</div>
+          </div>
+          <div class="prog-select-card" onclick="selectProg(this)">
+            <div class="prog-select-icon">🚌</div>
+            <div class="prog-select-name">Transportation Allowance</div>
+            <div class="prog-select-fund">Outside Amman</div>
+          </div>
+          <div class="prog-select-card" onclick="selectProg(this)">
+            <div class="prog-select-icon">💬</div>
+            <div class="prog-select-name">Psychosocial Support</div>
+            <div class="prog-select-fund">Mental health care</div>
+          </div>
+          <div class="prog-select-card" onclick="selectProg(this)">
+            <div class="prog-select-icon">💊</div>
+            <div class="prog-select-name">Chemotherapy Support</div>
+            <div class="prog-select-fund">Treatment costs</div>
+          </div>
+          <div class="prog-select-card" onclick="selectProg(this)">
+            <div class="prog-select-icon">🛡️</div>
+            <div class="prog-select-name">Cancer Care Insurance</div>
+            <div class="prog-select-fund">Uninsured patients</div>
+          </div>
+        </div>
+        <div style="padding: 16px 20px 0;">
+          <button class="btn-primary" onclick="showScreen('donate3')">Run KNN Matching →</button>
+        </div>
+        <div style="height:20px"></div>
+      </div>
+      <div class="bottom-nav">
+        <div class="nav-item" onclick="showScreen('home')"><div class="nav-icon">🏠</div><span>Home</span></div>
+        <div class="nav-item" onclick="showScreen('browse')"><div class="nav-icon">🔍</div><span>Patients</span></div>
+        <div class="nav-item" onclick="showScreen('dashboard')"><div class="nav-icon">📊</div><span>Dashboard</span></div>
+        <div class="nav-item" onclick="showScreen('profile')"><div class="nav-icon">⚙️</div><span>Profile</span></div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         SCREEN 4: DONATE STEP 3 — KNN Results
+    ══════════════════════════════════════ -->
+    <div class="screen" id="screen-donate3">
+      <div class="app-header">
+        <div style="font-size:13px;opacity:0.75;margin-bottom:6px;cursor:pointer" onclick="showScreen('donate2')">← Back</div>
+        <div style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700">KNN Matching</div>
+        <div style="font-size:12px;opacity:0.65;margin-top:2px">Step 3 of 4 — Best Matches Found</div>
+      </div>
+      <div class="progress-track"><div class="progress-fill" style="width:75%"></div></div>
+      <div class="scroll-content">
+        <div class="knn-loading" style="margin-bottom:12px">
+          <div class="knn-loading-header">🤖 KNN Algorithm Results</div>
+          <div class="knn-step">
+            <div class="knn-step-dot done">✓</div>
+            Loaded scaled patient matrix (111 × 7)
+          </div>
+          <div class="knn-step">
+            <div class="knn-step-dot done">✓</div>
+            Computed Euclidean distances to all 111 patients
+          </div>
+          <div class="knn-step">
+            <div class="knn-step-dot done">✓</div>
+            Applied Zakat & programme filters
+          </div>
+          <div class="knn-step">
+            <div class="knn-step-dot done">✓</div>
+            Ranked by Need Score — top 4 selected
+          </div>
+        </div>
+
+        <div class="section-label">4 Best Matches for Ahmad Al-Khalidi</div>
+
+        <div class="patient-card best" onclick="showScreen('patient')">
+          <div class="best-badge">★ Best Match</div>
+          <div class="patient-name">P001 — Lina Khaled</div>
+          <div class="patient-tags">
+            <span class="tag tag-stage4">Stage IV Breast Cancer</span>
+            <span class="tag tag-uninsured">Uninsured</span>
+            <span class="tag tag-zakat">Zakat Eligible</span>
+          </div>
+          <div class="sim-bar">
+            <div class="sim-labels"><span>Similarity Score</span><span>71.2%</span></div>
+            <div class="sim-track"><div class="sim-fill" style="width:71.2%"></div></div>
+          </div>
+          <div class="patient-income">📍 Karak &nbsp;|&nbsp; 💰 0 JD/month &nbsp;|&nbsp; Need Score: 89%</div>
+        </div>
+
+        <div class="patient-card" onclick="showScreen('patient')">
+          <div class="patient-name">P045 — Khalid Mahmoud</div>
+          <div class="patient-tags">
+            <span class="tag tag-stage4">Stage IV Leukemia</span>
+            <span class="tag tag-gov">UNRWA</span>
+            <span class="tag tag-zakat">Zakat Eligible</span>
+          </div>
+          <div class="sim-bar">
+            <div class="sim-labels"><span>Similarity Score</span><span>68.5%</span></div>
+            <div class="sim-track"><div class="sim-fill" style="width:68.5%"></div></div>
+          </div>
+          <div class="patient-income">📍 Mafraq &nbsp;|&nbsp; 💰 0 JD/month &nbsp;|&nbsp; Need Score: 82%</div>
+        </div>
+
+        <div class="patient-card" onclick="showScreen('patient')">
+          <div class="patient-name">P007 — Omar Nasser</div>
+          <div class="patient-tags">
+            <span class="tag tag-stage3">Stage III Lung Cancer</span>
+            <span class="tag tag-uninsured">Uninsured</span>
+            <span class="tag tag-zakat">Zakat Eligible</span>
+          </div>
+          <div class="sim-bar">
+            <div class="sim-labels"><span>Similarity Score</span><span>65.3%</span></div>
+            <div class="sim-track"><div class="sim-fill" style="width:65.3%"></div></div>
+          </div>
+          <div class="patient-income">📍 Zarqa &nbsp;|&nbsp; 💰 150 JD/month &nbsp;|&nbsp; Need Score: 76%</div>
+        </div>
+
+        <div class="patient-card" onclick="showScreen('patient')">
+          <div class="patient-name">P089 — Hassan Rashid</div>
+          <div class="patient-tags">
+            <span class="tag tag-stage3">Stage III Bladder Cancer</span>
+            <span class="tag tag-uninsured">Uninsured</span>
+            <span class="tag tag-zakat">Zakat Eligible</span>
+          </div>
+          <div class="sim-bar">
+            <div class="sim-labels"><span>Similarity Score</span><span>62.1%</span></div>
+            <div class="sim-track"><div class="sim-fill" style="width:62.1%"></div></div>
+          </div>
+          <div class="patient-income">📍 Irbid &nbsp;|&nbsp; 💰 200 JD/month &nbsp;|&nbsp; Need Score: 71%</div>
+        </div>
+
+        <div style="height:16px"></div>
+      </div>
+      <div class="bottom-nav">
+        <div class="nav-item" onclick="showScreen('home')"><div class="nav-icon">🏠</div><span>Home</span></div>
+        <div class="nav-item" onclick="showScreen('browse')"><div class="nav-icon">🔍</div><span>Patients</span></div>
+        <div class="nav-item" onclick="showScreen('dashboard')"><div class="nav-icon">📊</div><span>Dashboard</span></div>
+        <div class="nav-item" onclick="showScreen('profile')"><div class="nav-icon">⚙️</div><span>Profile</span></div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         SCREEN 5: PATIENT DETAIL
+    ══════════════════════════════════════ -->
+    <div class="screen" id="screen-patient">
+      <div class="detail-header">
+        <button class="back-btn" onclick="showScreen('donate3')">←</button>
+        <div class="need-score-ring">
+          <div class="need-score-val">89%</div>
+          <div class="need-score-label">Need Score</div>
+        </div>
+        <div class="detail-patient-name">Lina Khaled</div>
+        <div class="detail-id">P001 &nbsp;·&nbsp; Karak Governorate</div>
+      </div>
+
+      <div class="scroll-content">
+        <div class="detail-row"><span class="detail-row-key">Cancer Type</span><span class="detail-row-val" style="color:var(--rose)">Stage IV Breast Cancer</span></div>
+        <div class="detail-row"><span class="detail-row-key">Monthly Income</span><span class="detail-row-val" style="color:var(--rose)">0 JD (No Income)</span></div>
+        <div class="detail-row"><span class="detail-row-key">Insurance Status</span><span class="detail-row-val">Uninsured</span></div>
+        <div class="detail-row"><span class="detail-row-key">Total Dependents</span><span class="detail-row-val">4 family members</span></div>
+        <div class="detail-row"><span class="detail-row-key">Zakat Eligible</span><span class="detail-row-val" style="color:var(--teal)">✓ Yes</span></div>
+        <div class="detail-row"><span class="detail-row-key">Days on Waitlist</span><span class="detail-row-val">67 days</span></div>
+        <div class="detail-row"><span class="detail-row-key">Equipment Needed</span><span class="detail-row-val">✓ Yes</span></div>
+        <div class="detail-row"><span class="detail-row-key">Psychosocial Need</span><span class="detail-row-val">✓ Yes</span></div>
+        <div class="detail-row"><span class="detail-row-key">Estimated Treatment Cost</span><span class="detail-row-val">12,000 JD</span></div>
+        <div class="detail-row"><span class="detail-row-key">Urgency Flag</span><span class="detail-row-val" style="color:var(--rose)">🔴 High Urgency</span></div>
+
+        <div class="rec-header">Recommended Programmes</div>
+
+        <div class="rec-row">
+          <div class="rec-rank rank-1">#1</div>
+          <div class="rec-info">
+            <div class="rec-prog-name">🕌 Zakat Fund</div>
+            <div class="rec-prog-rule">income &lt; 400 JD AND zakat_eligible = YES</div>
+          </div>
+          <div class="rec-conf">95%</div>
+        </div>
+        <div class="rec-row">
+          <div class="rec-rank rank-2">#2</div>
+          <div class="rec-info">
+            <div class="rec-prog-name">💚 Goodwill Fund</div>
+            <div class="rec-prog-rule">income &lt; 500 JD</div>
+          </div>
+          <div class="rec-conf">90%</div>
+        </div>
+        <div class="rec-row">
+          <div class="rec-rank rank-3">#3</div>
+          <div class="rec-info">
+            <div class="rec-prog-name">🛡️ Cancer Care Insurance</div>
+            <div class="rec-prog-rule">uninsured AND stage ≥ II</div>
+          </div>
+          <div class="rec-conf">88%</div>
+        </div>
+        <div class="rec-row">
+          <div class="rec-rank rank-4">#4</div>
+          <div class="rec-info">
+            <div class="rec-prog-name">🏥 Medical Equipment</div>
+            <div class="rec-prog-rule">stage ≥ III AND equipment_needed = YES</div>
+          </div>
+          <div class="rec-conf">85%</div>
+        </div>
+        <div class="rec-row">
+          <div class="rec-rank rank-5">#5</div>
+          <div class="rec-info">
+            <div class="rec-prog-name">💬 Psychosocial Support</div>
+            <div class="rec-prog-rule">psychosocial_support_needed = YES</div>
+          </div>
+          <div class="rec-conf">75%</div>
+        </div>
+
+        <div style="padding: 16px 20px;">
+          <button class="btn-primary" onclick="showScreen('confirm')">Donate to Lina →</button>
+        </div>
+        <div style="height:8px"></div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         SCREEN 6: CONFIRMATION
+    ══════════════════════════════════════ -->
+    <div class="screen" id="screen-confirm">
+      <div class="app-header">
+        <div style="font-size:13px;opacity:0.75;margin-bottom:6px;cursor:pointer" onclick="showScreen('patient')">← Back</div>
+        <div style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700">Confirm Donation</div>
+        <div style="font-size:12px;opacity:0.65;margin-top:2px">Step 4 of 4 — Review & Confirm</div>
+      </div>
+      <div class="progress-track"><div class="progress-fill" style="width:100%"></div></div>
+      <div class="scroll-content">
+        <div class="confirm-card">
+          <div class="confirm-card-header">
+            <div class="confirm-card-title">Matched Patient</div>
+            <div class="confirm-card-name">Lina Khaled</div>
+          </div>
+          <div class="confirm-row"><span class="confirm-row-key">Donor</span><span class="confirm-row-val">Ahmad Al-Khalidi</span></div>
+          <div class="confirm-row"><span class="confirm-row-key">Amount</span><span class="confirm-row-val" style="color:var(--teal)">500 JD</span></div>
+          <div class="confirm-row"><span class="confirm-row-key">Programme</span><span class="confirm-row-val">Zakat Fund</span></div>
+          <div class="confirm-row"><span class="confirm-row-key">Patient Stage</span><span class="confirm-row-val" style="color:var(--rose)">Stage IV Breast Cancer</span></div>
+          <div class="confirm-row"><span class="confirm-row-key">Similarity Score</span><span class="confirm-row-val" style="color:var(--teal)">71.2%</span></div>
+          <div class="confirm-row" style="border-bottom:none"><span class="confirm-row-key">Zakat Compliance</span><span class="confirm-row-val" style="color:var(--gold)">✓ Verified</span></div>
+        </div>
+
+        <div class="impact-box">
+          <div class="impact-box-title">💡 Your Impact</div>
+          <div class="impact-box-text">Your 500 JD covers <strong>4.2%</strong> of Lina's estimated 12,000 JD treatment cost. She is a Stage IV Breast Cancer patient with 4 dependents, zero income, and no insurance — waiting 67 days for aid. Your donation is her family's lifeline while she receives treatment at KHCC.</div>
+        </div>
+
+        <div class="zakat-badge">
+          🕌 Zakat Pre-Match Validation: PASSED — Lina Khaled is a confirmed asnaf-eligible recipient.
+        </div>
+
+        <div style="padding: 0 20px;">
+          <button class="btn-teal" onclick="showScreen('success')">Confirm Donation — 500 JD</button>
+        </div>
+        <div style="height: 8px; padding: 8px 20px 0;">
+          <button class="btn-outline" onclick="showScreen('donate3')">Choose a Different Patient</button>
+        </div>
+        <div style="height:16px"></div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         SCREEN 7: SUCCESS
+    ══════════════════════════════════════ -->
+    <div class="screen" id="screen-success">
+      <div class="success-screen">
+        <div class="success-circle">✓</div>
+        <div class="success-title">Donation Confirmed</div>
+        <div class="success-sub">Your 500 JD has been matched to Lina Khaled through the Zakat Fund. May Allah accept your giving.</div>
+        <div class="tx-ref">
+          <div class="tx-ref-label">Transaction Reference</div>
+          KHCC-2026-AID-004821
+        </div>
+        <div style="background:var(--gold-pale);border:1px solid #EDCD8F;border-radius:var(--r-sm);padding:12px 16px;margin-bottom:20px;width:100%;text-align:left">
+          <div style="font-size:11px;font-weight:700;color:var(--gold);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:4px">🕌 Zakat Compliance Certificate</div>
+          <div style="font-size:12px;color:#8A6000;line-height:1.5">Confirmed: Donation allocated exclusively to a verified Zakat-eligible recipient (asnaf: al-fuqara). Reference: ZKT-2026-001291</div>
+        </div>
+        <button class="btn-primary" onclick="showScreen('home')" style="margin-bottom:10px">Return to Home</button>
+        <button class="btn-ghost">Download Impact Report</button>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         SCREEN 8: DASHBOARD
+    ══════════════════════════════════════ -->
+    <div class="screen" id="screen-dashboard">
+      <div class="dash-header">
+        <div class="dash-title">Impact Dashboard</div>
+        <div class="dash-sub">Real-time programme analytics</div>
+      </div>
+
+      <div class="scroll-content">
+        <div class="section-label">Key Performance Indicators</div>
+        <div class="kpi-strip">
+          <div class="kpi-card">
+            <div class="kpi-value" style="color:var(--teal)">301,935</div>
+            <div class="kpi-label">Total Aid (JD)</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-value" style="color:var(--navy)">175</div>
+            <div class="kpi-label">Fully Funded</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-value" style="color:var(--gold)">81</div>
+            <div class="kpi-label">Waitlisted</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-value" style="color:var(--rose)">46.3%</div>
+            <div class="kpi-label">Full-Fund Rate</div>
+          </div>
+        </div>
+
+        <div class="section-label" style="margin-top:12px">Donations by Fund Type</div>
+        <div style="padding: 0 20px; background:var(--white); margin:0 20px; border-radius:var(--r-md); border:1px solid var(--border); padding:14px 16px;">
+          <div class="chart-bar-row">
+            <div class="chart-bar-label">Goodwill Fund</div>
+            <div class="chart-bar-track"><div class="chart-bar-fill" style="width:100%;background:var(--teal)"></div></div>
+            <div class="chart-bar-val">168</div>
+          </div>
+          <div class="chart-bar-row">
+            <div class="chart-bar-label">Named / Recognition</div>
+            <div class="chart-bar-track"><div class="chart-bar-fill" style="width:32%;background:var(--navy)"></div></div>
+            <div class="chart-bar-val">53</div>
+          </div>
+          <div class="chart-bar-row">
+            <div class="chart-bar-label">Medical Equipment</div>
+            <div class="chart-bar-track"><div class="chart-bar-fill" style="width:29%;background:var(--gold)"></div></div>
+            <div class="chart-bar-val">48</div>
+          </div>
+          <div class="chart-bar-row">
+            <div class="chart-bar-label">General Donation</div>
+            <div class="chart-bar-track"><div class="chart-bar-fill" style="width:25%;background:#7A70DD"></div></div>
+            <div class="chart-bar-val">42</div>
+          </div>
+          <div class="chart-bar-row">
+            <div class="chart-bar-label">Gaza Fund</div>
+            <div class="chart-bar-track"><div class="chart-bar-fill" style="width:20%;background:var(--rose)"></div></div>
+            <div class="chart-bar-val">33</div>
+          </div>
+          <div class="chart-bar-row">
+            <div class="chart-bar-label">Zakat Fund</div>
+            <div class="chart-bar-track"><div class="chart-bar-fill" style="width:20%;background:var(--gold)"></div></div>
+            <div class="chart-bar-val">33</div>
+          </div>
+        </div>
+
+        <div class="section-label" style="margin-top:12px">Match Outcomes</div>
+        <div style="margin:0 20px;background:var(--white);border:1px solid var(--border);border-radius:var(--r-md);overflow:hidden">
+          <div style="display:flex;align-items:center;padding:12px 16px;border-bottom:1px solid var(--sand)">
+            <div style="width:12px;height:12px;border-radius:3px;background:var(--teal);margin-right:10px"></div>
+            <div style="flex:1;font-size:13px">Fully Funded</div>
+            <div style="font-size:13px;font-weight:700;color:var(--teal)">175 (46.3%)</div>
+          </div>
+          <div style="display:flex;align-items:center;padding:12px 16px;border-bottom:1px solid var(--sand)">
+            <div style="width:12px;height:12px;border-radius:3px;background:var(--navy);margin-right:10px"></div>
+            <div style="flex:1;font-size:13px">Partially Funded</div>
+            <div style="font-size:13px;font-weight:700;color:var(--navy)">101 (26.7%)</div>
+          </div>
+          <div style="display:flex;align-items:center;padding:12px 16px;border-bottom:1px solid var(--sand)">
+            <div style="width:12px;height:12px;border-radius:3px;background:var(--gold);margin-right:10px"></div>
+            <div style="flex:1;font-size:13px">Waitlisted</div>
+            <div style="font-size:13px;font-weight:700;color:var(--gold)">81 (21.4%)</div>
+          </div>
+          <div style="display:flex;align-items:center;padding:12px 16px">
+            <div style="width:12px;height:12px;border-radius:3px;background:var(--rose);margin-right:10px"></div>
+            <div style="flex:1;font-size:13px">Referred Elsewhere</div>
+            <div style="font-size:13px;font-weight:700;color:var(--rose)">21 (5.6%)</div>
+          </div>
+        </div>
+        <div style="height:16px"></div>
+      </div>
+
+      <div class="bottom-nav">
+        <div class="nav-item" onclick="showScreen('home')"><div class="nav-icon">🏠</div><span>Home</span></div>
+        <div class="nav-item" onclick="showScreen('browse')"><div class="nav-icon">🔍</div><span>Patients</span></div>
+        <div class="nav-item active"><div class="nav-icon">📊</div><span>Dashboard</span><div class="nav-dot"></div></div>
+        <div class="nav-item" onclick="showScreen('profile')"><div class="nav-icon">⚙️</div><span>Profile</span></div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         SCREEN 9: BROWSE PATIENTS
+    ══════════════════════════════════════ -->
+    <div class="screen" id="screen-browse">
+      <div class="app-header">
+        <div style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700">Browse Patients</div>
+        <div style="font-size:12px;opacity:0.65;margin-top:2px">111 patients · 81 awaiting donor match</div>
+      </div>
+
+      <div class="scroll-content">
+        <div style="margin: 12px 0 0;">
+          <div class="search-bar">
+            <span>🔍</span>
+            <input type="text" placeholder="Search by name, ID, governorate..." />
+          </div>
+        </div>
+        <div class="filter-row">
+          <div class="filter-chip active">All Stages</div>
+          <div class="filter-chip">Stage IV</div>
+          <div class="filter-chip">Stage III</div>
+          <div class="filter-chip">Zakat Eligible</div>
+          <div class="filter-chip">Uninsured</div>
+          <div class="filter-chip">High Urgency</div>
+          <div class="filter-chip">Outside Amman</div>
+        </div>
+
+        <div class="patient-card best" onclick="showScreen('patient')">
+          <div class="best-badge">🔴 High Urgency</div>
+          <div class="patient-name">P001 — Lina Khaled</div>
+          <div class="patient-tags">
+            <span class="tag tag-stage4">Stage IV Breast Cancer</span>
+            <span class="tag tag-uninsured">Uninsured</span>
+            <span class="tag tag-zakat">Zakat Eligible</span>
+          </div>
+          <div class="patient-income">📍 Karak &nbsp;|&nbsp; 💰 0 JD/month &nbsp;|&nbsp; ⏳ 67 days waiting</div>
+        </div>
+
+        <div class="patient-card" onclick="showScreen('patient')">
+          <div class="patient-name">P045 — Khalid Mahmoud</div>
+          <div class="patient-tags">
+            <span class="tag tag-stage4">Stage IV Leukemia</span>
+            <span class="tag tag-gov">UNRWA</span>
+            <span class="tag tag-zakat">Zakat Eligible</span>
+          </div>
+          <div class="patient-income">📍 Mafraq &nbsp;|&nbsp; 💰 0 JD/month &nbsp;|&nbsp; ⏳ 91 days waiting</div>
+        </div>
+
+        <div class="patient-card" onclick="showScreen('patient')">
+          <div class="patient-name">P007 — Omar Nasser</div>
+          <div class="patient-tags">
+            <span class="tag tag-stage3">Stage III Lung Cancer</span>
+            <span class="tag tag-uninsured">Uninsured</span>
+            <span class="tag tag-zakat">Zakat Eligible</span>
+          </div>
+          <div class="patient-income">📍 Zarqa &nbsp;|&nbsp; 💰 150 JD/month &nbsp;|&nbsp; ⏳ 43 days waiting</div>
+        </div>
+
+        <div class="patient-card" onclick="showScreen('patient')">
+          <div class="patient-name">P023 — Fatima Al-Sayed</div>
+          <div class="patient-tags">
+            <span class="tag tag-stage2">Stage II Colorectal</span>
+            <span class="tag tag-gov">Civil Gov</span>
+          </div>
+          <div class="patient-income">📍 Amman &nbsp;|&nbsp; 💰 350 JD/month &nbsp;|&nbsp; ⏳ 18 days waiting</div>
+        </div>
+
+        <div class="patient-card" onclick="showScreen('patient')">
+          <div class="patient-name">P089 — Hassan Rashid</div>
+          <div class="patient-tags">
+            <span class="tag tag-stage3">Stage III Bladder Cancer</span>
+            <span class="tag tag-uninsured">Uninsured</span>
+            <span class="tag tag-zakat">Zakat Eligible</span>
+          </div>
+          <div class="patient-income">📍 Irbid &nbsp;|&nbsp; 💰 200 JD/month &nbsp;|&nbsp; ⏳ 55 days waiting</div>
+        </div>
+
+        <div style="height:16px"></div>
+      </div>
+
+      <div class="bottom-nav">
+        <div class="nav-item" onclick="showScreen('home')"><div class="nav-icon">🏠</div><span>Home</span></div>
+        <div class="nav-item active"><div class="nav-icon">🔍</div><span>Patients</span><div class="nav-dot"></div></div>
+        <div class="nav-item" onclick="showScreen('dashboard')"><div class="nav-icon">📊</div><span>Dashboard</span></div>
+        <div class="nav-item" onclick="showScreen('profile')"><div class="nav-icon">⚙️</div><span>Profile</span></div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         SCREEN 10: MY PREFERENCES / PROFILE
+    ══════════════════════════════════════ -->
+    <div class="screen" id="screen-profile">
+      <div class="profile-header">
+        <div class="profile-avatar">AK</div>
+        <div class="profile-name">Ahmad Al-Khalidi</div>
+        <div class="profile-type">Individual Donor · Member since 2024</div>
+        <div style="display:flex;gap:20px;justify-content:center;margin-top:12px">
+          <div style="text-align:center">
+            <div style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700">3</div>
+            <div style="font-size:10px;opacity:0.65">Donations</div>
+          </div>
+          <div style="text-align:center">
+            <div style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700">1,100</div>
+            <div style="font-size:10px;opacity:0.65">JD Given</div>
+          </div>
+          <div style="text-align:center">
+            <div style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700">3</div>
+            <div style="font-size:10px;opacity:0.65">Patients Helped</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-content">
+        <div class="section-label">Donation Preferences</div>
+        <div class="pref-row">
+          <div class="pref-left">
+            <div class="pref-name">🕌 Zakat Donations Only</div>
+            <div class="pref-sub">Restrict all giving to Zakat-eligible patients</div>
+          </div>
+          <div class="pref-toggle on"><div class="pref-toggle-thumb"></div></div>
+        </div>
+        <div class="pref-row">
+          <div class="pref-left">
+            <div class="pref-name">👨‍👩‍👧 Prioritise Families with Children</div>
+            <div class="pref-sub">Show patients with dependents first</div>
+          </div>
+          <div class="pref-toggle on"><div class="pref-toggle-thumb"></div></div>
+        </div>
+        <div class="pref-row">
+          <div class="pref-left">
+            <div class="pref-name">🔴 Urgent Cases First</div>
+            <div class="pref-sub">Prioritise High urgency flagged patients</div>
+          </div>
+          <div class="pref-toggle on"><div class="pref-toggle-thumb"></div></div>
+        </div>
+        <div class="pref-row">
+          <div class="pref-left">
+            <div class="pref-name">📧 Impact Email Notifications</div>
+            <div class="pref-sub">Receive updates on your matched patients</div>
+          </div>
+          <div class="pref-toggle on"><div class="pref-toggle-thumb"></div></div>
+        </div>
+        <div class="pref-row">
+          <div class="pref-left">
+            <div class="pref-name">🔬 Stage IV Only</div>
+            <div class="pref-sub">Only match to late-stage cancer patients</div>
+          </div>
+          <div class="pref-toggle off"><div class="pref-toggle-thumb"></div></div>
+        </div>
+
+        <div class="section-label" style="margin-top:4px">Preferred Programme</div>
+        <div style="padding:0 20px;margin-bottom:16px">
+          <select class="form-input">
+            <option selected>Let KNN Decide (Recommended)</option>
+            <option>Zakat Fund</option>
+            <option>Goodwill Fund</option>
+            <option>Medical Equipment Programme</option>
+            <option>Transportation Allowance</option>
+            <option>Psychosocial Support</option>
+          </select>
+        </div>
+
+        <div style="padding:0 20px;margin-bottom:8px">
+          <button class="btn-primary">Save Preferences</button>
+        </div>
+        <div style="padding:0 20px;margin-bottom:16px">
+          <button class="btn-ghost" style="width:100%">View My Donation History</button>
+        </div>
+      </div>
+
+      <div class="bottom-nav">
+        <div class="nav-item" onclick="showScreen('home')"><div class="nav-icon">🏠</div><span>Home</span></div>
+        <div class="nav-item" onclick="showScreen('browse')"><div class="nav-icon">🔍</div><span>Patients</span></div>
+        <div class="nav-item" onclick="showScreen('dashboard')"><div class="nav-icon">📊</div><span>Dashboard</span></div>
+        <div class="nav-item active"><div class="nav-icon">⚙️</div><span>Profile</span><div class="nav-dot"></div></div>
+      </div>
+    </div>
+
+  </div><!-- end phone-shell -->
+
+  <div style="text-align:center;font-size:12px;color:#8A8799;padding-bottom:20px">
+    KHCC AidConnect · Graduation Project · Mallak Abu Sada & Maya Abu Aslahamat · 2025/2026
+  </div>
+</div>
+
+<script>
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.screen-nav-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('screen-' + id).classList.add('active');
+  const btnMap = {
+    home:'🏠 Home', donate1:'💳 Donate — Step 1',
+    donate2:'🎯 Donate — Step 2 (Programmes)',
+    donate3:'🤖 Donate — Step 3 (KNN)',
+    patient:'👤 Patient Detail', confirm:'✅ Confirmation',
+    success:'🎉 Success', dashboard:'📊 Dashboard',
+    browse:'🔍 Browse Patients', profile:'⚙️ My Preferences'
+  };
+  document.querySelectorAll('.screen-nav-btn').forEach(btn => {
+    if(btn.textContent.trim() === (btnMap[id]||'')) btn.classList.add('active');
+  });
+  window.scrollTo({top: 0, behavior:'smooth'});
+}
+
+function selectProg(el) {
+  document.querySelectorAll('.prog-select-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+}
+</script>
+</body>
+</html>
